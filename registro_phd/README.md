@@ -21,18 +21,18 @@ Este repositorio documenta el desarrollo experimental de **TTT2 (La Piel Tejida)
 exploraciones técnicas que dieron origen a la propuesta doctoral:
 
 **TmaqT — Arquitectura Topológica Multimodal para el Modelado Adaptativo del Gesto en Interfaces 
-Háptico-Textiles.**
+Háptico-Táctiles. (textil)**
 
 El proyecto explorará la relación entre:
 
 - superficies textiles sensibles
 - interacción corporal
 - sonido generativo
-- modelos computacionales adaptativos
+- modelos adaptativos
 
 El repositorio funciona como un registro de laboratorio experimental donde se documentan códigos, pruebas de hardware y exploraciones audiovisuales.
 
-Se encuentra en una etapa inicial de desarrollo, tomando como punto de partida **TTT2 (La Piel Tejida)** y sus primeras experimentaciones con interacción textil, gesto y sonido. Esta evolución plantea una pregunta central de investigación:
+Se encuentra en una etapa inicial de desarrollo, tomando como punto de partida **TTT2 (La Piel Tejida)** y sus primeras experimentaciones de interacción táctil ( gesto ) y sonido. Esta evolución plantea una pregunta central de investigación:
 
 **¿Cómo pasar de una correspondencia fija gesto-respuesta a un sistema capaz de aprender relaciones nuevas entre interacción corporal, espacio latente y generación sonora?**
 
@@ -116,7 +116,7 @@ Pruebas con:
 
 Primeras exploraciones hacia:
 
-- representación del gesto como datos
+- representación del gesto
 - espacios latentes
 - Self-Organizing Maps (SOM)
 - modelos generativos de sonido
@@ -127,6 +127,6 @@ Primeras exploraciones hacia:
 
 TTT2 constituye el punto de partida experimental desde el cual surge la propuesta doctoral TmaqT. TTT2 es una interfaz textil reactiva con mapeos definidos, que corresponde a la Tesis de Magíster en Artes Mediales de la U. de Chile, 2025. https://www.academia.edu/144409160/TTT2_La_Piel_Tejida_Codificar_y_Significar_mediante_una_proto_Escritura_Desde_una_constelaci%C3%B3n_de_lenguaje_s_ 
 
-TmaqT = evolución hacia una arquitectura adaptativa con aprendizaje computacional. Doctorado 2027:
+TmaqT = evolución hacia una arquitectura adaptativa con aprendizaje automático no supervisado. Doctorado 2027:
 
 "Pasar de una correspondencia fija gesto-respuesta a un sistema capaz de aprender relaciones nuevas entre interacción corporal, espacio latente y generación sonora, tanto como herramienta de exploración artística para la creación de nuevas formas de expresión audiovisual, como una arquitectura computacional implementable para interfaces multimodales adaptativas, aplicable no solo a superficies textiles, sino también a otros dispositivos sensibles, entornos interactivos y sistemas basados en la captura e interpretación del gesto humano."
