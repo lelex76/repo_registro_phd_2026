@@ -1,8 +1,7 @@
 # TTT2 — La Piel Tejida
 ## Repositorio de desarrollo experimental
 
-![TTT2](../02_img_orig/ttt2_curvas_2026_01.png)
-
+![TTT2 System Diagram](../02_img_orig/Diagrama_caja.png)
 ---
 
 ## Descripción
