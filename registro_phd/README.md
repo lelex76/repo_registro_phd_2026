@@ -13,15 +13,21 @@ exploraciones técnicas que dieron origen a la propuesta doctoral:
 **TmaqT — Arquitectura Topológica Multimodal para el Modelado Adaptativo del Gesto en Interfaces 
 Háptico-Textiles.**
 
-El proyecto explora la relación entre:
+El proyecto explorará la relación entre:
 
 - superficies textiles sensibles
 - interacción corporal
 - sonido generativo
 - modelos computacionales adaptativos
 
-El repositorio funciona como un registro de laboratorio donde se documentan códigos, pruebas de 
-hardware y experimentaciones audiovisuales.
+El repositorio funciona como un registro de laboratorio experimental donde se documentan códigos, pruebas de hardware y exploraciones audiovisuales.
+
+Se encuentra en una etapa inicial de desarrollo, tomando como punto de partida **TTT2 (La Piel Tejida)** y sus primeras experimentaciones con interacción textil, gesto y sonido. Esta evolución plantea una pregunta central de investigación:
+
+**¿Cómo pasar de una correspondencia fija gesto-respuesta a un sistema capaz de aprender relaciones nuevas entre interacción corporal, espacio latente y generación sonora?**
+
+La investigación explora tanto nuevas posibilidades de creación artística mediante sistemas generativos como el desarrollo de arquitecturas computacionales adaptativas aplicables a diferentes interfaces multimodales, más allá de una única tecnología textil.
+
 
 ---
 
@@ -38,19 +44,19 @@ audiovisuales.
 ## Arquitectura inicial
 GESTO
 |
-v
+
 TEXTIL CONDUCTIVO
 |
-v
+
 MPR121
 24 zonas capacitivas
 |
-v
+
 RASPBERRY PI
 |
 +-------------+
 | |
-v v
+
 SONIDO VISUAL
 WAV Pygame
 
@@ -96,25 +102,21 @@ Pruebas con:
 - nuevas relaciones gesto-sonido
 
 
-## Etapa 3 — Hacia sistemas adaptativos
+## Etapa 3 — Hacia sistemas más adaptativos y generativos
 
 Primeras exploraciones hacia:
 
 - representación del gesto como datos
 - espacios latentes
-- Self Organizing Maps (SOM)
+- Self-Organizing Maps (SOM)
 - modelos generativos de sonido
 
 ---
 
-# Relación con TmaqT
+# Relación con TmaqT ( TTT2)
 
-TTT2 constituye el punto de partida experimental desde el cual surge la propuesta TmaqT.
+TTT2 constituye el punto de partida experimental desde el cual surge la propuesta doctoral TmaqT. TTT2 es una interfaz textil reactiva con mapeos definidos, que corresponde a la Tesis de Magíster en Artes Mediales de la U. de Chile, 2025. https://www.academia.edu/144409160/TTT2_La_Piel_Tejida_Codificar_y_Significar_mediante_una_proto_Escritura_Desde_una_constelaci%C3%B3n_de_lenguaje_s_ 
 
+TmaqT = evolución hacia una arquitectura adaptativa con aprendizaje computacional. Doctorado 2027:
 
-TTT2 = punto de partida experimental, interfaz textil reactiva con mapeos definidos.
-TmaqT = evolución hacia una arquitectura adaptativa con aprendizaje computacional.
-
-
-"pasar de una correspondencia fija gesto-respuesta a un sistema capaz de aprender relaciones nuevas 
-entre interacción corporal, espacio latente y generación sonora."
+"Pasar de una correspondencia fija gesto-respuesta a un sistema capaz de aprender relaciones nuevas entre interacción corporal, espacio latente y generación sonora, tanto como herramienta de exploración artística para la creación de nuevas formas de expresión audiovisual, como una arquitectura computacional implementable para interfaces multimodales adaptativas, aplicable no solo a superficies textiles, sino también a otros dispositivos sensibles, entornos interactivos y sistemas basados en la captura e interpretación del gesto humano."
