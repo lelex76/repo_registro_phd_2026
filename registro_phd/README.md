@@ -1,7 +1,18 @@
 # TTT2 — La Piel Tejida
 ## Repositorio de desarrollo experimental
 
-![TTT2 System Diagram](../02_img_orig/Diagrama_caja.png)
+<p align="center">
+  <img src="../02_img_orig/Diagrama_caja.png" width="700">
+</p>
+
+<p align="center">
+  <sub>
+  Figura 1. Arquitectura experimental TTT2: superficie textil interactiva,
+  adquisición gestual mediante sensores capacitivos y generación audiovisual en tiempo real.
+  </sub>
+</p>
+
+
 ---
 
 ## Descripción
