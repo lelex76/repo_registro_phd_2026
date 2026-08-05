@@ -67,7 +67,6 @@ de interpretar interacciones táctiles y transformarlas en comportamientos audio
 
 Arquitectura:
 
-```
 GESTO CORPORAL
         |
         |
@@ -81,9 +80,26 @@ SENSORES CAPACITIVOS MPR121
 RASPBERRY PI
         |
         |
+PYTHON
+        |
+        |
++----------------------+
+| Librerías principales|
++----------------------+
+| Adafruit_MPR121      |
+| BusIO / I2C          |
+| Pygame               |
+| NumPy                |
+| Math                 |
+| Random               |
+| Time                 |
+| OS                   |
++----------------------+
+        |
+        |
 SONIDO + VISUALIZACIÓN
-(Pygame / Python)
-```
+(Pygame Mixer + Pygame Drawing)
+
 
 ---
 
