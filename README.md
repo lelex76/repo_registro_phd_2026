@@ -65,6 +65,7 @@ tecnología textil.
 La primera implementación consiste en una superficie textil conductiva conectada a un sistema computacional capaz 
 de interpretar interacciones táctiles y transformarlas en comportamientos audiovisuales.
 
+```text
 Arquitectura:
 
 GESTO CORPORAL
@@ -89,7 +90,6 @@ PYTHON
 | Adafruit_MPR121      |
 | BusIO / I2C          |
 | Pygame               |
-| NumPy                |
 | Math                 |
 | Random               |
 | Time                 |
@@ -99,7 +99,7 @@ PYTHON
         |
 SONIDO + VISUALIZACIÓN
 (Pygame Mixer + Pygame Drawing)
-
+```
 
 ---
 
