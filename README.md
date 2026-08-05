@@ -6,11 +6,9 @@
 <img src="imgs/Diagrama_caja.png" width="600">
 
 <p align="center">
-Figura 1. Arquitectura experimental TTT2: superficie textil interactiva, adquisición gestual mediante sensores 
-capacitivos y generación audiovisual en tiempo real.
+<sub>Figura 1. Arquitectura experimental TTT2: superficie textil interactiva, adquisición gestual mediante 
+sensores capacitivos y generación audiovisual en tiempo real.</sub>
 </p>
-**Figura 1.** Arquitectura experimental TTT2: superficie textil interactiva, adquisición gestual mediante sensores 
-capacitivos y generación audiovisual en tiempo real.
 
 ---
 
