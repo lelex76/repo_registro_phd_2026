@@ -2,6 +2,7 @@
 # TTT2 — La Piel Tejida
 
 ## Repositorio de desarrollo experimental
+<p align="center">
 
 <img src="imgs/Diagrama_caja.png" width="600">
 
