@@ -54,11 +54,24 @@ La pregunta central que articula esta evolución es:
 > ¿Cómo pasar de una correspondencia fija gesto-respuesta a un sistema capaz de aprender relaciones nuevas entre 
 interacción corporal, espacio latente y generación sonora?
 
-Esta investigación explora nuevas posibilidades de creación artística mediante sistemas generativos, así como 
-arquitecturas computacionales adaptativas aplicables a diferentes interfaces multimodales, más allá de una única 
-tecnología textil.
+La motivación principal de TmaqT no es utilizar inteligencia artificial para generar sonido, sino investigar cómo 
+el gesto corporal puede convertirse en una condición generativa del sonido. Desde esta perspectiva, la IA deja de 
+operar como un sistema externo de producción y se convierte en un componente relacional dentro de una arquitectura 
+donde cuerpo, materia, datos efímeros provenientes de la experiencia táctil-háptica y síntesis sonora co-emergen.
 
----
+Esta relación plantea la posibilidad de desarrollar interfaces adaptativas capaces de modificar su comportamiento 
+a partir de la interacción continua con el cuerpo. En lugar de funcionar como superficies pasivas de entrada o 
+dispositivos basados en correspondencias predeterminadas, estas interfaces podrían aprender progresivamente las 
+particularidades del gesto, la presión, la trayectoria y las formas de contacto, construyendo representaciones 
+dinámicas de la interacción corporal.
+
+Desde esta perspectiva, el textil sensible deja de ser únicamente un medio de captura y se transforma en una 
+superficie relacional capaz de adaptarse a diferentes modos de interacción, generando nuevas posibilidades para 
+instrumentos musicales aumentados, interfaces hápticas expresivas, sistemas de rehabilitación sensorial, 
+dispositivos de comunicación corporal y otras arquitecturas multimodales donde la relación entre humano y 
+tecnología se construya de manera situada y evolutiva.
+
+ ---
 
 # TTT2 — Arquitectura experimental
 
