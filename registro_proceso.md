@@ -2,12 +2,10 @@
 
 ## Desarrollo evolutivo desde TTT2 hacia TmaqT
 
-Este documento registra el proceso de desarrollo experimental, las decisiones metodológicas, las pruebas de hardware y software, y las transformaciones conceptuales que llevaron desde la primera implementación de TTT2 hacia las exploraciones actuales de TmaqT.
-
 A diferencia del README principal, que presenta la arquitectura general del proyecto, este documento funciona como una bitácora de investigación donde se documentan las diferentes versiones de código, sus objetivos, resultados, limitaciones y las razones que llevaron a nuevas etapas de desarrollo.
 ---
 
-
+### TmaqT
 Este proceso experimental constituye la transición desde TTT2 hacia TmaqT, una evolución desde una interfaz textil 
 reactiva hacia una arquitectura adaptativa basada en aprendizaje automático, representación latente y organización 
 topológica del gesto.
