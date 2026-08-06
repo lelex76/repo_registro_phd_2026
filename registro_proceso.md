@@ -106,119 +106,92 @@ Cada versión no corresponde solamente a una mejora técnica, sino a una transfo
 - Aprendizaje automático
 
 ---
+### Etapa 02 — `main02.py` (instrumento textil v2)
 
-## main02.py — Versión 02 del instrumento textil
-## Evolución directa del código original TTT2.
-## Introduce estructura modular, perfiles por zona y mezcla de capas WAV.
+**Versión evolucionada del instrumento textil original TTT2.**  
+Introduce estructura modular, perfiles por zona y mezcla de capas WAV.
 
-# Objetivo
-## Crear una versión 2.0 del instrumento textil, más robusta y modular, manteniendo la interacción táctil pero 
-mejorando:
+---
 
-## arquitectura sonora
+### Objetivo
+Crear una **versión 2.0 del instrumento textil**, más robusta y modular, mejorando:
 
-## organización del código
+- arquitectura sonora  
+- organización del código  
+- expresividad del tejido  
+- escalabilidad hacia versiones posteriores (03, 09, 10)
 
-## expresividad del tejido
+Funciona como **puente** entre el código original y las etapas híbridas/FM.
 
-## escalabilidad hacia versiones posteriores
+---
 
-## Funciona como puente entre el código original y las etapas híbridas/FM.
+### Arquitectura
 
-# Arquitectura
-## 1. Sistema táctil (MPR121 dual)
+#### 1. Sistema táctil (MPR121 dual)
+- 24 electrodos (zonas conductivas independientes)  
+- lectura touch/no-touch  
+- memoria táctil simple  
+- suavizado básico  
 
-## 24 electrodos- zonas conductivas independientes
+#### 2. Perfiles sonoros por zona
+- 3 capas WAV por zona  
+- selección según posición (x,y)  
+- volumen base + energía táctil  
+- fade orgánico  
+- paneo estéreo  
+- **72 canales de audio**
 
-## lectura touch/no-touch
+#### 3. Curvas textiles
+- curvas Bezier animadas  
+- intensidad según memoria táctil  
+- movimiento orgánico  
+- vida limitada  
+- representación visual del gesto (similar al original)
 
-## memoria táctil simple
+#### 4. Motor WAV
+- activación por contacto  
+- reproducción continua  
+- fade-out sin contacto  
+- arquitectura modular
 
-## suavizado básico
+---
 
-## 2. Perfiles sonoros por zona
+### Implementación
+- **Lectura táctil:** 24 electrodos, actualización de estado y memoria  
+- **Audio:** 9 WAV, mezcla por zona, 72 canales, volumen dinámico  
+- **Visualización:** curvas Bezier animadas por frame  
+- **Loop principal:** lectura táctil, memoria, sonido, curvas, FPS
 
-## 3 capas WAV por zona
+---
 
-## selección según posición (x,y)
+### Resultados
+- Instrumento textil más expresivo que el original  
+- Zonas con identidad sonora propia  
+- Texturas más complejas  
+- Curvas visuales más coherentes con el gesto  
+- Sistema estable, modular y escalable  
 
-## volumen base + energía táctil
+---
 
-## fade orgánico
+### Limitaciones
+- Sin RF (AD8318, MCP3008)  
+- Sin síntesis FM  
+- Sin SOM  
+- Mezcla WAV estática  
+- Memoria táctil simple  
+- Paneo estéreo básico  
+- Control tímbrico limitado al volumen  
 
-## paneo estéreo
+---
 
-## total: 72 canales
+### Aprendizajes obtenidos
+- Importancia de modularizar para futuras expansiones  
+- Valor de los perfiles por zona  
+- Curvas textiles como representación del gesto (aunque se exploró más lo sonoro)  
+- Cómo manejar 72 canales sin saturar CPU  
+- Base para integrar memoria tímbrica, SOM, FM y RF  
+- Etapa intermedia esencial hacia TmaqT  
 
-## 3. Curvas textiles
-
-## Bezier animadas
-
-## intensidad según memoria táctil
-
-## movimiento orgánico
-
-## vida limitada
-
-## representación visual del gesto casi identico al original
-
-## 4. Motor WAV
-
-## activación por contacto
-
-## reproducción más continua
-
-## fade-out sin contacto
-
-## arquitectura modular
-
-# Implementación
-## Lectura táctil: 24 electrodos, actualización de estado y memoria.
-
-## Audio: carga de 9 WAV, mezcla por zona, 72 canales, volumen dinámico.
-
-## Visualización: curvas Bezier animadas por frame.
-
-## Loop principal: lectura táctil, actualización de memoria, sonido, curvas, FPS.
-
-# Resultados
-## Instrumento textil más expresivo que el original.
-
-## Zonas con identidad sonora propia.
-
-## Texturas más complejas gracias a perfiles y memoria táctil.
-
-## Curvas visuales más coherentes con el gesto.
-
-## Sistema estable, modular y escalable.
-
-# Limitaciones
-## Sin RF (AD8318, MCP3008).
-
-## Sin síntesis FM.
-
-## Sin SOM ni mapa latente.
-
-## Mezcla WAV estática (sin morfología sonora).
-
-## Memoria táctil simple.
-
-## Paneo estéreo básico.
-
-## Control tímbrico limitado al volumen.
-
-Aprendizajes obtenidos
-## Importancia de modularizar para futuras expansiones.
-
-## Valor de los perfiles por zona para identidad sonora.
-
-## Curvas textiles como representación visual del gesto: la verdad es que se exploró casi solo lo sonoro.
-
-## Cómo manejar 72 canales sin saturar CPU.
-
-## Base conceptual para integrar memoria tímbrica, SOM, FM y RF.
-
-## Comprensión de esta etapa como paso intermedio esencial hacia TmaqT.
 ---
 
 # Código 02 — [Nombre pendiente]
