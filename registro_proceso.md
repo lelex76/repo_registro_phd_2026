@@ -5,8 +5,32 @@
 Este documento registra el proceso de desarrollo experimental, las decisiones metodológicas, las pruebas de hardware y software, y las transformaciones conceptuales que llevaron desde la primera implementación de TTT2 hacia las exploraciones actuales de TmaqT.
 
 A diferencia del README principal, que presenta la arquitectura general del proyecto, este documento funciona como una bitácora de investigación donde se documentan las diferentes versiones de código, sus objetivos, resultados, limitaciones y las razones que llevaron a nuevas etapas de desarrollo.
-
 ---
+
+
+Este proceso experimental constituye la transición desde TTT2 hacia TmaqT, una evolución desde una interfaz textil 
+reactiva hacia una arquitectura adaptativa basada en aprendizaje automático, representación latente y organización 
+topológica del gesto.
+
+Mi investigación explora cómo una superficie textil sensible puede transformarse en un sistema relacional capaz de 
+establecer nuevas conexiones entre cuerpo, materia, datos y sonido. En este recorrido, el textil deja de funcionar 
+únicamente como una superficie de entrada táctil y comienza a comprenderse como una piel informante: una interfaz 
+capaz de recibir, organizar y transformar información mediante la interacción corporal.
+
+La incorporación de modelos de inteligencia artificial en el borde (Edge AI), TinyML y modelos generativos 
+pequeños abre la posibilidad de desarrollar sistemas donde la relación entre gesto y sonido no esté determinada 
+por correspondencias predefinidas, sino que emerja progresivamente mediante procesos de aprendizaje, adaptación y 
+exploración de espacios latentes.
+
+TmaqT se plantea entonces como una arquitectura experimental para investigar nuevas formas de interacción 
+audiovisual, donde el contacto háptico con la materia textil participa en la generación sonora a través de modelos 
+computacionales capaces de aprender relaciones dinámicas entre gesto, comportamiento y síntesis.
+
+Esta investigación busca desarrollar herramientas artísticas para nuevas formas de expresión audiovisual, pero 
+también explorar arquitecturas computacionales aplicables a interfaces multimodales sensibles, superficies 
+deformables y otros sistemas basados en la captura e interpretación del gesto humano.
+
+--- ---
 
 # 1. Punto de partida: TTT2 — La Piel Tejida
 
