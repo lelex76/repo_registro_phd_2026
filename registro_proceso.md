@@ -278,53 +278,198 @@ Esta etapa prepara la transición hacia RF (main09) y FM + SOM (main10).
 
 ---
 
-# Código 03 — [Nombre pendiente]
+### Etapa 03 — `main03.py` (instrumento textil híbrido)
 
-## Transición hacia síntesis sonora
-
-## Objetivo
-
-## Cambios conceptuales
-
-Esta etapa marca el desplazamiento desde sistemas basados principalmente en reproducción de muestras hacia procesos donde el gesto comienza a modificar parámetros de generación sonora.
-
-## Implementación
-
-## Resultados
-
-## Limitaciones
+Versión híbrida del instrumento textil.
+Introduce memoria tímbrica real, modulación de capas WAV y dinámica tímbrica dependiente del gesto.  
+Es el puente entre la etapa textil pura (02) y las etapas RF/FM/SOM (09 y 10).
 
 ---
 
-# Código 04 — [Nombre pendiente]
+### Objetivo
+Crear una **versión híbrida** del instrumento textil que combine:
 
-## Exploraciones con espacios latentes
+- interacción táctil (MPR121)
+- perfiles sonoros por zona
+- memoria tímbrica real
+- modulación de capas WAV
+- dinámica tímbrica dependiente del gesto
 
-## Objetivo
-
-## SOM / aprendizaje no supervisado
-
-## Representación del gesto
-
-## Relación gesto → espacio sonoro
-
-## Resultados
+Esta etapa prepara la transición hacia RF (main09) y FM + SOM (main10).
 
 ---
 
-# Prototipo 0 — main10.py
+### Arquitectura
 
-## Primera arquitectura estable
+#### 1. Sistema táctil (MPR121 dual)
+- 24 electrodos  
+- lectura touch/no-touch  
+- memoria táctil + memoria tímbrica  
+- suavizado básico  
 
-## Descripción
+#### 2. Perfiles sonoros híbridos
+- 3 capas WAV por zona  
+- volumen dinámico según memoria tímbrica  
+- modulación tímbrica simple  
+- paneo estéreo  
+- 72 canales de audio  
 
-## Componentes principales
+#### 3. Curvas textiles híbridas
+- curvas Bezier animadas  
+- vida dependiente de memoria tímbrica  
+- movimiento orgánico  
+- representación del gesto + estado tímbrico  
 
-## Resultados experimentales
-
-## Estado actual
+#### 4. Motor híbrido WAV
+- activación por contacto  
+- reproducción continua  
+- volumen modulado por memoria tímbrica  
+- fade-out sin contacto  
+- arquitectura modular para FM/RF
 
 ---
+
+### Implementación
+- Lectura táctil: 24 zonas, estado + memoria tímbrica  
+- Audio: 9 WAV, mezcla por zona, modulación tímbrica  
+- Visualización:curvas Bezier híbridas  
+- Loop: lectura táctil, memoria, sonido, curvas, FPS
+
+---
+
+### Resultados
+- Instrumento textil con **mayor expresividad tímbrica**  
+- Zonas con evolución sonora dependiente del gesto  
+- Curvas textiles más vivas y coherentes con la energía táctil  
+- Sistema estable y preparado para RF/FM/SOM  
+
+---
+
+### Limitaciones
+- Sin RF (AD8318, MCP3008)  
+- Sin FM real (solo modulación WAV)  
+- Sin SOM ni mapa latente  
+- Memoria tímbrica aún simple  
+- Modulación tímbrica limitada  
+
+---
+
+### Aprendizajes obtenidos
+- Cómo integrar memoria tímbrica en un sistema textil  
+- Cómo modular capas WAV sin saturar CPU  
+- Cómo vincular gesto táctil con evolución tímbrica  
+- Base conceptual para RF, FM y SOM  
+- Etapa clave para pasar de textil puro a instrumento híbrido TmaqT
+---
+
+
+### Etapa 00 — `main04.py`  
+**Sistema FM + SOM inicial (versión base del ciclo doctoral 2027)**
+
+Esta etapa inaugura el nuevo paradigma del instrumento TmaqT:  
+un sistema autónomo donde el gesto textil se transforma en morfología sonora a través de un mapa SOM y síntesis FM.  
+Es la primera versión del **motor latente**, y constituye la base conceptual del doctorado transdisciplinario 2027.
+
+---
+
+### Objetivo
+Construir la **primera versión del sistema autónomo TmaqT**, donde:
+
+- el gesto textil (24D) se convierte en un vector latente 2D mediante un SOM,
+- ese vector latente controla parámetros de síntesis FM,
+- el sistema desarrolla **memoria tímbrica** y **memoria gestual**,
+- el sonido emerge de la interacción prolongada con el tejido.
+
+Esta etapa define el **inicio del ciclo doctoral**:  
+la arquitectura FM + SOM como fundamento del comportamiento emergente.
+
+---
+
+### Arquitectura del sistema
+
+#### 1. Entrada táctil (MPR121 dual)
+- 24 electrodos (12 izquierda + 12 derecha).  
+- Lectura binaria → vector 24D.  
+- Suavizado temporal para convertir contacto en trayectoria.  
+- Memoria gestual acumulativa.
+
+#### 2. SOM (Self‑Organizing Map)
+- Mapa 2D de tamaño 6×4.  
+- Cada neurona contiene un vector de pesos 24D.  
+- Aprendizaje continuo: el mapa se adapta a la experiencia táctil.  
+- BMU (Best Matching Unit) determina la posición latente del gesto.
+
+#### 3. Espacio latente
+- Coordenadas (x_latent, y_latent) definen:
+  - frecuencia portadora (fc),
+  - frecuencia moduladora (fm),
+  - índice FM (index),
+  - amplitud (amp),
+  - futura espacialización (pan).
+
+#### 4. Síntesis FM
+- Oscilador modulador + portadora.  
+- Tres capas espectrales:
+  - subgrave,  
+  - cuerpo FM,  
+  - armónicos altos.  
+- Mezcla espectral + saturación suave.  
+- Motor estéreo preparado para paneo.
+
+#### 5. Memoria tímbrica
+- Acumula energía del gesto.  
+- Controla la complejidad del índice FM.  
+- Produce evolución tímbrica dependiente de exploración.
+
+#### 6. Campo ambiental continuo
+- Oscilador + ruido.  
+- Fondo resonante del tejido.  
+- Funciona como “atmósfera” del instrumento.
+
+---
+
+### Implementación técnica
+
+- **Audio:** pygame mixer, 48 kHz, buffer 256.  
+- **FM:** cálculo por bloque, actualización de fase, mezcla espectral.  
+- **SOM:** distancia euclidiana, BMU, influencia radial, aprendizaje exponencial.  
+- **Memoria:** dos memorias:
+  - gestual (24D),
+  - tímbrica (escalar).  
+- **Latente → FM:** mapeo directo de coordenadas SOM a parámetros FM.  
+- **Loop principal:** lectura → suavizado → SOM → latente → FM → reproducción.
+
+---
+
+### Resultados
+- Primer instrumento textil con **síntesis FM controlada por un mapa SOM**.  
+- El gesto produce **morfología sonora**, no solo activación.  
+- El sistema desarrolla **memoria tímbrica** y responde de forma no lineal.  
+- El sonido evoluciona según la historia del gesto.  
+- Se establece la base del **comportamiento emergente**.
+
+---
+
+### Limitaciones
+- SOM pequeño (6×4).  
+- FM de 2 operadores (versión inicial).  
+- Sin integración RF (queda en experimento aparte).  
+- Sin mapa latente avanzado (eso será `main10`).  
+- Sin paneo espacial real (solo preparado).  
+- Sin aprendizaje multimodal (solo tacto).
+
+---
+
+### Aprendizajes obtenidos
+- Cómo mapear un gesto textil 24D a un espacio latente 2D.  
+- Cómo usar SOM como interfaz sonora.  
+- Cómo generar timbre emergente mediante memoria tímbrica.  
+- Cómo vincular materialidad textil con síntesis FM.  
+- Cómo construir un motor autónomo que evoluciona con la interacción.  
+- Base conceptual para la versión avanzada (`main10`) del doctorado 2027.
+
+-----
+
 
 # Reflexiones metodológicas
 
