@@ -39,7 +39,7 @@ hardware, configuraciones electrónicas y exploraciones audiovisuales.
 TTT2 constituye el punto de partida experimental desde el cual surge la propuesta doctoral:
 
 **TmaqT — Arquitectura Topológica Multimodal para el Modelado Adaptativo del Gesto en Interfaces 
-Háptico-Textiles.**
+Háptico-Táctiles abordando lo textil.**
 
 Mientras TTT2 implementa una relación definida entre gesto, sonido e imagen mediante reglas de interacción 
 preestablecidas, TmaqT explora la transición hacia sistemas capaces de aprender nuevas relaciones entre:
@@ -65,8 +65,8 @@ dispositivos basados en correspondencias predeterminadas, estas interfaces podr�
 particularidades del gesto, la presión, la trayectoria y las formas de contacto, construyendo representaciones 
 dinámicas de la interacción corporal.
 
-Desde esta perspectiva, el textil sensible deja de ser únicamente un medio de captura y se transforma en una 
-superficie relacional capaz de adaptarse a diferentes modos de interacción, generando nuevas posibilidades para 
+Desde esta perspectiva, el textil deja de ser únicamente un medio de captura y se transforma en una 
+superficie capaz de adaptarse a diferentes modos de interacción, generando nuevas posibilidades para 
 instrumentos musicales aumentados, interfaces hápticas expresivas, sistemas de rehabilitación sensorial, 
 dispositivos de comunicación corporal y otras arquitecturas multimodales donde la relación entre humano y 
 tecnología se construya de manera situada y evolutiva.
