@@ -106,6 +106,7 @@ Cada versión no corresponde solamente a una mejora técnica, sino a una transfo
 - Aprendizaje automático
 
 ---
+
 ### Etapa 02 — `main02.py` (instrumento textil v2)
 
 **Versión evolucionada del instrumento textil original TTT2.**  
@@ -191,44 +192,89 @@ Funciona como **puente** entre el código original y las etapas híbridas/FM.
 - Cómo manejar 72 canales sin saturar CPU  
 - Base para integrar memoria tímbrica, SOM, FM y RF  
 - Etapa intermedia esencial hacia TmaqT  
+---
+### Etapa 03 — `main03.py` (instrumento textil híbrido)
+
+**Versión híbrida del instrumento textil.**  
+Introduce memoria tímbrica real, modulación de capas WAV y dinámica tímbrica dependiente del gesto.  
+Es el puente entre la etapa textil pura (02) y las etapas RF/FM/SOM (09 y 10).
 
 ---
 
-# Código 02 — [Nombre pendiente]
+### Objetivo
+Crear una **versión híbrida** del instrumento textil que combine:
 
-## Objetivo
+- interacción táctil (MPR121)
+- perfiles sonoros por zona
+- **memoria tímbrica real**
+- **modulación de capas WAV**
+- dinámica tímbrica dependiente del gesto
 
-## Cambios respecto al código anterior
-
-## Arquitectura
-
-## Implementación
-
-## Resultados
-
-## Limitaciones
-
-## Decisión metodológica posterior
+Esta etapa prepara la transición hacia RF (main09) y FM + SOM (main10).
 
 ---
 
-# Exploración paralela — Campo electromagnético (RF)
+### Arquitectura
 
-Durante el desarrollo se exploró la incorporación de información electromagnética ambiental mediante:
+#### 1. Sistema táctil (MPR121 dual)
+- 24 electrodos  
+- lectura touch/no-touch  
+- memoria táctil + memoria tímbrica  
+- suavizado básico  
 
-- detector RF AD8318
-- conversión analógica-digital mediante MCP3008
-- integración con Raspberry Pi
+#### 2. Perfiles sonoros híbridos
+- 3 capas WAV por zona  
+- volumen dinámico según memoria tímbrica  
+- modulación tímbrica simple  
+- paneo estéreo  
+- 72 canales de audio  
 
-El objetivo era investigar la posibilidad de incorporar una modalidad adicional de interacción relacionada con el entorno electromagnético.
+#### 3. Curvas textiles híbridas
+- curvas Bezier animadas  
+- vida dependiente de memoria tímbrica  
+- movimiento orgánico  
+- representación del gesto + estado tímbrico  
 
-Aunque esta exploración permitió construir una arquitectura experimental funcional, posteriormente se decidió no continuar esta línea como eje principal de desarrollo.
+#### 4. Motor híbrido WAV
+- activación por contacto  
+- reproducción continua  
+- volumen modulado por memoria tímbrica  
+- fade-out sin contacto  
+- arquitectura modular para FM/RF
 
-La investigación retornó al problema central:
+---
 
-> la relación entre gesto corporal, síntesis sonora y organización de espacios generativos.
+### Implementación
+- **Lectura táctil:** 24 electrodos, estado + memoria tímbrica  
+- **Audio:** 9 WAV, mezcla por zona, modulación tímbrica  
+- **Visualización:** curvas Bezier híbridas  
+- **Loop:** lectura táctil, memoria, sonido, curvas, FPS
 
-Esta exploración permanece documentada como una perturbación metodológica dentro del proceso, pero no define la arquitectura actual de TmaqT.
+---
+
+### Resultados
+- Instrumento textil con **mayor expresividad tímbrica**  
+- Zonas con evolución sonora dependiente del gesto  
+- Curvas textiles más vivas y coherentes con la energía táctil  
+- Sistema estable y preparado para RF/FM/SOM  
+
+---
+
+### Limitaciones
+- Sin RF (AD8318, MCP3008)  
+- Sin FM real (solo modulación WAV)  
+- Sin SOM ni mapa latente  
+- Memoria tímbrica aún simple  
+- Modulación tímbrica limitada  
+
+---
+
+### Aprendizajes obtenidos
+- Cómo integrar memoria tímbrica en un sistema textil  
+- Cómo modular capas WAV sin saturar CPU  
+- Cómo vincular gesto táctil con evolución tímbrica  
+- Base conceptual para RF, FM y SOM  
+- Etapa clave para pasar de textil puro a instrumento híbrido TmaqT
 
 ---
 
