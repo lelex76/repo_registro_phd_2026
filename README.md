@@ -174,18 +174,6 @@ Primeras exploraciones hacia:
 
 ---
 
-# Relación con TmaqT
-
-TmaqT representa la evolución desde una interfaz reactiva hacia una arquitectura adaptativa basada en aprendizaje 
-automático, representación latente y organización topológica del gesto.
-
-La investigación doctoral plantea desarrollar sistemas capaces de establecer nuevas relaciones entre cuerpo, 
-materia, datos y sonido, tanto como herramientas de exploración artística para nuevas formas de expresión 
-audiovisual, como arquitecturas computacionales aplicables a interfaces multimodales sensibles, superficies 
-deformables y otros dispositivos basados en la captura e interpretación del gesto humano.
-
----
-
 # Referencia
 
 TTT2 — La Piel Tejida corresponde a la investigación de tesis de Magíster en Artes Mediales, Universidad de Chile, 
