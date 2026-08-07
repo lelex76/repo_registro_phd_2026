@@ -34,7 +34,7 @@ hardware, configuraciones electrónicas y exploraciones audiovisuales.
 
 Video de la obra completa:
 
-https://photos.app.goo.gl/cZkKCfsx2pKV977p8 
+### https://photos.app.goo.gl/cZkKCfsx2pKV977p8 
 ---
 
 # De TTT2 hacia TmaqT
