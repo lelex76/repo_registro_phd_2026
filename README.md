@@ -25,13 +25,16 @@ audiovisuales mediante la relación entre:
 
 * superficie textil sensible
 * interacción corporal
-* adquisición gestual
-* sonido generativo
+* adquisición gestual: primeras aproximaciones
+* sonido ( preseteado aun no generativo)
 * representación visual
 
 El repositorio funciona como un registro de laboratorio experimental donde se documentan códigos, pruebas de 
 hardware, configuraciones electrónicas y exploraciones audiovisuales.
 
+Video de la obra completa:
+
+https://photos.app.goo.gl/cZkKCfsx2pKV977p8 
 ---
 
 # De TTT2 hacia TmaqT
