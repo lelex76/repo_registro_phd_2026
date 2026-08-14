@@ -400,6 +400,37 @@ Construir la **primera versión del sistema autónomo TmaqT**, donde:
 Esta etapa define el **inicio del ciclo doctoral**:  
 la arquitectura FM + SOM como fundamento del comportamiento emergente.
 
+
+
+### Objetivo
+
+Desarrollar una versión del sistema donde:
+
+- las **24 zonas táctiles** del tejido son leídas simultáneamente mediante dos MPR121,
+- varias zonas pueden permanecer activas al mismo tiempo,
+- hasta **4 voces FM** pueden coexistir de manera independiente,
+- cada voz mantiene una relación con la zona textil que la originó,
+- el **SOM 6×4** organiza el vector táctil de 24 dimensiones y produce una posición dentro de un espacio latente,
+- la posición latente modifica frecuencia, modulación, índice FM y posición estéreo,
+- cada zona introduce además una **diferenciación sonora propia** mediante `zone_bias`,
+- las voces poseen **ataque y release individual**, permitiendo que una voz continúe desapareciendo mientras otra permanece activa,
+- la interacción entre varias zonas produce **polifonía** en lugar de una única respuesta sonora global,
+- un sistema de delay corto extiende temporalmente la interacción.
+
+---
+
+### Del gesto global a la interacción polifónica
+
+La diferencia fundamental respecto de `main04.py` es que el sistema ya no interpreta necesariamente el tejido como un único gesto.
+
+Una configuración como:
+
+```text
+[ zona 3 ]
+
+
+
+
 ---
 
 ### Arquitectura del sistema
