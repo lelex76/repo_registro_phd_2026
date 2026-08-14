@@ -152,31 +152,56 @@ zona
 +
 polifonía
 
-El resultado es un sistema donde el timbre emerge de múltiples variables relacionadas, en lugar de una correspondencia directa:
+El resultado es un sistema donde el timbre emerge de múltiples variables
+relacionadas, en lugar de una correspondencia directa:
 
-sensor → nota
-Cambio conceptual respecto a main04.py
+**sensor → nota**
+
+### Cambio conceptual respecto a `main04.py`
+
+```text
 main04
 ────────────────────────────
-24D → SOM → FM → sonido
-          │
-          └── comportamiento global
+
+24D
+ │
+ ▼
+SOM
+ │
+ ▼
+FM
+ │
+ ▼
+sonido
+ │
+ └── comportamiento global
 
 
 main05
 ────────────────────────────────────────
-24D → memoria → SOM → espacio latente
-                    │
-                    ├── zona
-                    ├── gesto
-                    ├── voz
-                    └── tiempo
-                         │
-                         ▼
-                  FM × 4 voces
-                         │
-                         ▼
-                       sonido
+
+24D
+ │
+ ▼
+memoria
+ │
+ ▼
+SOM
+ │
+ ▼
+espacio latente
+ │
+ ├── zona
+ ├── gesto
+ ├── voz
+ └── tiempo
+ │
+ ▼
+FM × 4 voces
+ │
+ ▼
+sonido
+```
 
 La evolución principal no consiste solamente en agregar más voces.
 
