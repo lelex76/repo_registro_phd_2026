@@ -40,61 +40,52 @@ la zona no determina directamente una nota, pero tampoco desaparece completament
 
 La identidad sonora resulta de la combinación:
 
-zona
-   +
-gesto táctil
-   +
-posición SOM
-   +
-memoria gestual
-   +
-estado de la voz
-Arquitectura
-        TEJIDO TEXTIL
-             │
-             ▼
-      24 zonas táctiles
-             │
-       ┌─────┴─────┐
-       │           │
-     MPR121      MPR121
-     0x5A        0x5C
-       │           │
-       └─────┬─────┘
-             │
-             ▼
-       Vector táctil 24D
-             │
-             ▼
-       Memoria gestual
-             │
-             ▼
-          SOM 6×4
-             │
-             ▼
-      Posición latente
-          (x, y)
-             │
-      ┌──────┴──────┐
-      │             │
-      ▼             ▼
- diferenciación   parámetros
-    de zona       de síntesis
-      │             │
-      └──────┬──────┘
-             ▼
-       Voces FM × 4
-             │
-             ▼
-        Mezcla estéreo
-             │
-             ▼
-          Delay
-             │
-             ▼
-           SONIDO
-SOM como espacio latente
-
+```
+                    TEJIDO TEXTIL
+                         │
+                         ▼
+                  24 zonas táctiles
+                         │
+                  ┌──────┴──────┐
+                  │             │
+               MPR121         MPR121
+                0x5A           0x5C
+                  │             │
+                  └──────┬──────┘
+                         │
+                         ▼
+                  Vector táctil 24D
+                         │
+                         ▼
+                  Memoria gestual
+                         │
+                         ▼
+                      SOM 6×4
+                         │
+                         ▼
+                  Posición latente
+                      (x, y)
+                         │
+                  ┌──────┴──────┐
+                  │             │
+                  ▼             ▼
+          Diferenciación     Parámetros
+             de zona         de síntesis
+                  │             │
+                  └──────┬──────┘
+                         │
+                         ▼
+                    Voces FM × 4
+                         │
+                         ▼
+                   Mezcla estéreo
+                         │
+                         ▼
+                       Delay
+                         │
+                         ▼
+                       SONIDO
+```
 El SOM funciona como una superficie de organización del gesto.
 
 El vector de 24 sensores no se transforma simplemente en una coordenada fija. El mapa aprende progresivamente las configuraciones táctiles que aparecen durante la interacción y las organiza mediante relaciones de proximidad.
