@@ -34,6 +34,66 @@ sonido          representación
                  sonora
 ```
 
+## Tres espacios latentes de naturaleza diferente
+
+El sistema articula **tres representaciones aprendidas**, cada una construida a partir de un tipo diferente de información.
+
+```text
+zG
+espacio latente gestual
+aprendido a partir de gestos/tacto
+        │
+        ├──────────────→ zFM
+        │                espacio latente sonoro FM
+        │                aprendido a partir de
+        │                representaciones sonoras FM
+        │
+        └──────────────→ zWAV
+                         espacio latente sonoro
+                         aprendido directamente
+                         a partir de audio WAV
+```
+
+Por tanto:
+
+* `zG` → representación aprendida de **gestos y tacto**
+* `zFM` → representación aprendida de una **representación sonora FM**
+* `zWAV` → representación aprendida directamente de **audio**
+
+Estos espacios no son equivalentes ni contienen el mismo tipo de información. El interés del sistema reside precisamente en poner en relación representaciones latentes de distinta naturaleza dentro de una misma dinámica interactiva.
+
+El sistema, por tanto, no establece una correspondencia directa entre una lectura de sensor y un parámetro sonoro. El gesto primero se transforma en una representación latente y, a partir de ella, produce una perturbación de los espacios sonoros.
+
+## El acoplamiento todavía no es aprendido
+
+Aunque los tres espacios son aprendidos, **la relación entre ellos todavía está definida explícitamente**.
+
+Actualmente:
+
+```text
+zG ──[regla de acoplamiento paramétrica]──→ zFM
+ │
+ └──[regla de acoplamiento paramétrica]──→ zWAV
+```
+
+Las perturbaciones se definen mediante ganancias, términos relacionados con posición, cambio y velocidad, suavizado y límites de desplazamiento.
+
+Por tanto, este baseline combina:
+
+```text
+representaciones aprendidas
+          +
+acoplamiento paramétrico
+          +
+estado latente persistente
+          =
+Baseline 01
+```
+
+El **acoplamiento gestual-sonoro propiamente tal todavía no es aprendido** a partir de datos sincronizados de gesto y sonido.
+
+Esta distinción es central: el sistema ya permite experimentar con relaciones entre espacios latentes aprendidos, pero la relación que los conecta continúa siendo diseñada manualmente.
+
 ## Comportamiento con estado
 
 El sistema no convierte directamente las lecturas individuales de los sensores en parámetros de síntesis.
@@ -75,26 +135,6 @@ nueva perturbación desde el estado actual
 Esto establece un principio fundamental para TmaqT:
 
 > **El gesto no selecciona un sonido; el gesto perturba un espacio latente sonoro.**
-
-## Distinción importante
-
-Este baseline **todavía no debe describirse como un acoplamiento gestual-sonoro aprendido**.
-
-El `Gesture Encoder` y los decodificadores son modelos aprendidos. Sin embargo, la relación entre el espacio latente gestual y los espacios latentes sonoros está actualmente definida mediante una **regla de acoplamiento paramétrica y con estado**, que incluye ganancias, términos de perturbación y suavizado.
-
-En otras palabras:
-
-```text
-representación aprendida
-        +
-acoplamiento paramétrico
-        +
-estado latente persistente
-        =
-Baseline 01
-```
-
-Por tanto, el acoplamiento propiamente tal todavía está **definido explícitamente**, y no aprendido a partir de datos gestuales y sonoros sincronizados.
 
 ## Pregunta de investigación
 
