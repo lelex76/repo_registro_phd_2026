@@ -1,160 +1,62 @@
-# Baseline 01 — Acoplamiento gestual-sonoro latente con estado
+Baseline 01 — Acoplamiento gestual-sonoro en espacio latente
+Este baseline implementa Edge AI local en Raspberry Pi 4: gesto → espacio latente → sonido. Sin clasificación, sin presets, sin nube.
 
-Este baseline establece la primera implementación de **Edge AI de TmaqT** ejecutándose localmente en una Raspberry Pi 4.
+Flujo
+text
+24 zonas táctiles (MPR121)
+        ↓
+   Gesture Encoder (TFLite)
+        ↓
+        zG  (3D → 10D → 20D según versión)
+        ↓
+  Perturbación del estado latente
+        ↓
+   ┌────────────┴────────────┐
+  zFM                       zWAV
+   ↓                          ↓
+FM Decoder              15 WAVs
+   ↓                          ↓
+ sonido                  sonido continuo
+Tres espacios latentes
+Espacio	Aprendido de	Dimensión
+zG	gesto táctil	3D / 10D / 20D
+zFM	representación sonora FM	3D
+zWAV	audio WAV directo	3D
+No son equivalentes. Eso es lo interesante: poner en relación representaciones de distinta naturaleza.
 
-Demuestra la infraestructura fundamental para relacionar representaciones gestuales continuas con espacios latentes sonoros aprendidos:
+Estado persistente
+El gesto no selecciona un sonido. Perturba un estado latente que persiste.
 
-* **Edge AI ejecutada localmente en una Raspberry Pi 4**
-* **Gesture Encoder** ejecutado localmente mediante **TensorFlow Lite**
-* representación gestual continua `zG`
-* dos espacios latentes sonoros aprendidos: `zFM` y `zWAV`
-* perturbación de los espacios latentes sonoros a partir del gesto
-* estado latente persistente: **el gesto desplaza el sistema y el sistema conserva ese desplazamiento**
-* ausencia de clasificación de gestos
-* ejecución autónoma mediante `systemd`
+text
+TOUCH    → el estado se desplaza
+TOUCH    → sigue desplazándose
+NO TOUCH → el estado queda donde llegó
+TOUCH    → nueva perturbación desde ahí
+Lo que todavía no es aprendido
+Los tres espacios son aprendidos. Pero la relación entre ellos está definida a mano: ganancias, posición, velocidad, suavizado, límites.
 
-## Arquitectura del sistema
-
-```text
-Sensores táctiles MPR121
-          ↓
-   Gesture Encoder
-          ↓
-         zG
-          ↓
-Perturbación latente paramétrica
-          ↓
- ┌─────────────────┐
- │                 │
-zFM               zWAV
- │                 │
-FM Decoder       WAV Decoder
- │                 │
-sonido          representación
-                 sonora
-```
-
-## Tres espacios latentes de naturaleza diferente
-
-El sistema articula **tres representaciones aprendidas**, cada una construida a partir de un tipo diferente de información.
-
-```text
-zG
-espacio latente gestual
-aprendido a partir de gestos/tacto
-        │
-        ├──────────────→ zFM
-        │                espacio latente sonoro FM
-        │                aprendido a partir de
-        │                representaciones sonoras FM
-        │
-        └──────────────→ zWAV
-                         espacio latente sonoro
-                         aprendido directamente
-                         a partir de audio WAV
-```
-
-Por tanto:
-
-* `zG` → representación aprendida de **gestos y tacto**
-* `zFM` → representación aprendida de una **representación sonora FM**
-* `zWAV` → representación aprendida directamente de **audio**
-
-Estos espacios no son equivalentes ni contienen el mismo tipo de información. El interés del sistema reside precisamente en poner en relación representaciones latentes de distinta naturaleza dentro de una misma dinámica interactiva.
-
-El sistema, por tanto, no establece una correspondencia directa entre una lectura de sensor y un parámetro sonoro. El gesto primero se transforma en una representación latente y, a partir de ella, produce una perturbación de los espacios sonoros.
-
-## El acoplamiento todavía no es aprendido
-
-Aunque los tres espacios son aprendidos, **la relación entre ellos todavía está definida explícitamente**.
-
-Actualmente:
-
-```text
-zG ──[regla de acoplamiento paramétrica]──→ zFM
+text
+zG ──[regla paramétrica]──→ zFM
  │
- └──[regla de acoplamiento paramétrica]──→ zWAV
-```
+ └──[regla paramétrica]──→ zWAV
+El acoplamiento gesto → sonido todavía no emerge de los datos.
 
-Las perturbaciones se definen mediante ganancias, términos relacionados con posición, cambio y velocidad, suavizado y límites de desplazamiento.
+Pregunta abierta
+¿Qué cambia cuando la relación entre zG y los espacios sonoros deja de definirse explícitamente y pasa a aprenderse de la relación temporal continua?
 
-Por tanto, este baseline combina:
+Edge AI
+Todo corre local en la Raspberry Pi 4. Sin dependencia remota durante la interacción. El textil funciona como sistema autónomo.
 
-```text
-representaciones aprendidas
-          +
-acoplamiento paramétrico
-          +
-estado latente persistente
-          =
-Baseline 01
-```
+Versiones:
 
-El **acoplamiento gestual-sonoro propiamente tal todavía no es aprendido** a partir de datos sincronizados de gesto y sonido.
+main_v12.py — 20D, 15 WAVs, co-adaptación (--rehearse)
 
-Esta distinción es central: el sistema ya permite experimentar con relaciones entre espacios latentes aprendidos, pero la relación que los conecta continúa siendo diseñada manualmente.
+main_v12_10d.py — 10D, misma lógica
 
-## Comportamiento con estado
+main_v12_3d.py — 3D, versión base
 
-El sistema no convierte directamente las lecturas individuales de los sensores en parámetros de síntesis.
+Modos:
 
-En cambio, la representación gestual actual produce una **perturbación de un estado sonoro persistente**.
+--perform — matrices congeladas
 
-```text
-gesto
-  ↓
-zG
-  ↓
-perturbación
-  ↓
-desplazamiento del estado latente
-  ↓
-zFM / zWAV
-```
-
-El estado latente persiste en el tiempo:
-
-```text
-TOUCH
-  ↓
-el estado latente se desplaza
-  ↓
-TOUCH
-  ↓
-el estado continúa desplazándose
-  ↓
-NO TOUCH
-  ↓
-el estado permanece donde llegó
-  ↓
-TOUCH AGAIN
-  ↓
-nueva perturbación desde el estado actual
-```
-
-Esto establece un principio fundamental para TmaqT:
-
-> **El gesto no selecciona un sonido; el gesto perturba un espacio latente sonoro.**
-
-## Pregunta de investigación
-
-Este baseline establece el punto de partida para la siguiente etapa de la investigación:
-
-> **¿Qué cambia cuando la relación entre el espacio latente gestual y los espacios latentes sonoros deja de estar definida explícitamente y pasa a ser aprendida a partir de su relación temporal continua?**
-
-Los siguientes experimentos investigarán si el propio acoplamiento puede **emerger de los datos**, en lugar de estar definido mediante relaciones diseñadas manualmente.
-
-## Contexto de Edge AI
-
-Baseline 01 constituye el punto de partida para investigar **Edge AI encarnada** en TmaqT.
-
-La Raspberry Pi realiza localmente la codificación del gesto y la interacción con los espacios latentes, permitiendo que el instrumento textil funcione como un sistema computacional autónomo, sin depender de una infraestructura remota durante la interacción.
-
-Este baseline establece así la infraestructura sobre la cual se podrán investigar posteriormente:
-
-* acoplamiento gestual-sonoro aprendido
-* relaciones temporales entre espacios latentes
-* comportamiento sonoro adaptativo
-* interacción multimodal entre espacios latentes
-* dinámicas continuas entre gesto y sonido
-* aprendizaje de relaciones entre estados gestuales y estados sonoros
+--rehearse — W_map se adapta durante el uso
