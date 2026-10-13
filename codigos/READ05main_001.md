@@ -34,6 +34,7 @@ de zona         de síntesis
 Polifonía
 NUM_VOICES = 4
 
+
 Cada voz mantiene:
 
 zona de origen
@@ -57,7 +58,8 @@ Una zona puede producir una voz. Tres zonas simultáneas producen tres voces. La
 Diferenciación de zonas
 Cada zona tiene una posición normalizada:
 
-python
+En python:
+
 zone_position = zone / (NUM_ZONES - 1)
 zone_bias = zone_position - 0.5
 Ese valor desplaza ligeramente los parámetros de la voz.
@@ -87,12 +89,12 @@ text
 posición SOM + diferenciación de zona
 La modulación y el índice FM incorporan además:
 
-text
+
 gesto + posición latente + zona + polifonía
 El timbre emerge de múltiples variables relacionadas, no de una correspondencia directa sensor → nota.
 
 Cambio respecto a main04.py
-text
+
 main04
 ──────────────
 24D → SOM → FM → sonido
