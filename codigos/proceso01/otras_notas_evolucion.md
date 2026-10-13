@@ -92,7 +92,7 @@ No todos los espacios son latentes en sentido estricto. Es más preciso hablar d
 🟢 espacio acústico WAV
 🟢 proyección Y_ML → FM_Z
 🔜 sonificación de espacios
-🔜 3 sensores Doppler
+
 
 
 ## Próximos pasos
