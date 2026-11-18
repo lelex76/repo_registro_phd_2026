@@ -53,18 +53,16 @@ Page, R., Ng, A., Rajcic, N., & See, J. S. (2025). Tangible AI interfaces: Resea
 
 9- **Guennes et al. (2025):** revisión sistemática de materiales, tecnologías y métodos de evaluación de experiencia de usuario en textiles inteligentes. Me interesa como referencia para situar las decisiones materiales y metodológicas de mi investigación.
 
-10- **Moflin (Casio, s.f.):** mascota robótica con IA que ejemplifica la IA física o encarnada. Carece de lenguaje verbal predefinido y desarrolla su comportamiento y "personalidad" a partir de la interacción corporal y afectiva (caricias, sonidos, movimiento). Me interesa como referente concreto de sistemas de IA centrados en la corporización, la materialidad y la interacción encarnada.
-
-11- **Page et al. (2025):** explora mediante dos artefactos tangibles cómo la incorporación física de IA modifica la interacción, la creatividad y la percepción de estos sistemas. Me interesa por su aproximación a la IA encarnada y a las interfaces físicas.
+10- **Page et al. (2025):** explora mediante dos artefactos tangibles cómo la incorporación física de IA modifica la interacción, la creatividad y la percepción de estos sistemas. Me interesa por su aproximación a la IA encarnada y a las interfaces físicas.
 
 **Enlaces de interés institucional y de comunidad**
 
-12- **EAIM 2027** (2nd Workshop on Emerging AI Technologies for Music, AAAI-27, Montréal, febrero 2027): enfocado en agencia humana y creatividad en sistemas colaborativos de IA musical. https://amaai-lab.github.io/EAIM2027/
+11- **EAIM 2027** (2nd Workshop on Emerging AI Technologies for Music, AAAI-27, Montréal, febrero 2027): enfocado en agencia humana y creatividad en sistemas colaborativos de IA musical. https://amaai-lab.github.io/EAIM2027/
 
-13- **NIME 2026** (International Conference on New Interfaces for Musical Expression): conferencia central para el diseño de nuevos instrumentos musicales digitales e interacción musical. https://nime2026.org/
+12- **NIME 2026** (International Conference on New Interfaces for Musical Expression): conferencia central para el diseño de nuevos instrumentos musicales digitales e interacción musical. https://nime2026.org/
 
-14- **CSTC** (Centre for Sound and Technologies of Communication, Goldsmiths, University of London): centro de investigación en sonido, tecnologías de la comunicación y prácticas artísticas. https://www.gold.ac.uk/cstc/about/
+13- **CSTC** (Centre for Sound and Technologies of Communication, Goldsmiths, University of London): centro de investigación en sonido, tecnologías de la comunicación y prácticas artísticas. https://www.gold.ac.uk/cstc/about/
 
-15- **Moflin** (Casio): mascota robótica con IA física/encarnada que aprende de la interacción corporal y afectiva. https://education.casio.co.uk/moflin/
+
 
 Estas son descripciones iniciales basadas en los trabajos publicados, no afirmaciones de que todos desarrollen el mismo enfoque que TmaqT. research.gold.ac.uk+4
