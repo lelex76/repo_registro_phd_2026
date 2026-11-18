@@ -1,4 +1,13 @@
 00_REFERENCIAS_DE_INTERES.md.
+
+Antecedente directo de esta propuesta doctoral
+
+Mi tesis de Magíster en Interacción Textil (2025), disponible en el repositorio de la Universidad de Chile [1], me permitió definir las bases de mi propuesta doctoral sobre HCI con Inteligencia Artificial (IA) capaz de aprender y adaptarse a la interacción. Ese trabajo exploró las decisiones materiales, sensoriales y metodológicas de las interfaces textiles; la presente investigación doctoral busca extender esa base hacia sistemas de IA que no solo respondan, sino que co-adapten su comportamiento a partir de la interacción continua con la persona.
+
+[1] https://repositorio.uchile.cl/handle/2250/207390
+
+Las referencias que siguen (Tanaka et al., 2019; Zbyszyński et al., 2019; Luo et al., 2024; Guennes et al., 2025; Page et al., 2025) se sitúan en esa línea: gesto y sonido, aprendizaje co-adaptativo, textiles sensoriales, evaluación de experiencia en textiles inteligentes e IA encarnada en interfaces tangibles.
+
 Referencias bibliográficas (APA 7)
 1. Tanaka et al. (2019)
 
