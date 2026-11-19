@@ -1,4 +1,4 @@
-# Referencias, bibliografía, comunidades y experimentación — TmaqT
+# Referencias, bibliografía, comunidades y experimentación — TmaqT (experiencia textil, tecnologia, tacto)
 
 Documento de apoyo para las tres preguntas de la postulación doctoral. Reúne las fuentes que aparecen citadas en la postulación, explica qué aporta cada una y distingue entre publicaciones académicas, espacios de comunidad, antecedentes metodológicos y experimentación propia.
 
@@ -29,11 +29,11 @@ Esta pregunta presenta la trayectoria que conduce a la propuesta doctoral: inves
 
 ### Pregunta 2. Objetivos, estado del arte, metodología y factibilidad
 
-Esta pregunta necesita referencias que permitan situar el problema y distinguir la contribución de TmaqT. Las fuentes se agrupan por dimensión, no como si todas abordaran el mismo objeto.
+Esta pregunta necesita referencias que permitan situar el problema y distinguir la contribución de esta experiencia. Las fuentes se agrupan por dimensión, no como si todas abordaran el mismo objeto.
 
 #### Estado del arte: tacto, textiles, gesto, sonido e interfaces tangibles de IA
 
-| N.º en la postulación | Referencia | Qué estudia y por qué es relevante |
+| N.º | Referencia | Qué estudia y por qué es relevante |
 |---|---|---|
 | **[10]** | [Cui et al. (2025) — Flexible and wearable tactile sensors for intelligent interfaces](https://pmc.ncbi.nlm.nih.gov/articles/PMC12429216/) | Revisión de sensores táctiles flexibles y vestibles para interfaces inteligentes. Examina materiales, mecanismos de sensado y desafíos de adaptación y retroalimentación. Sirve para contextualizar las posibilidades y limitaciones técnicas del sensado táctil. No demuestra por sí sola que las interfaces textiles sean necesariamente binarias. |
 | **[11]** | [Guennes et al. (2025) — Smart textile design](https://www.mdpi.com/2227-7080/13/6/251) | Revisión sistemática de materiales, tecnologías y métodos de evaluación de experiencia de usuario en textiles inteligentes. Aporta una visión general del campo y ayuda a fundamentar la evaluación de la experiencia de interacción. |
@@ -45,7 +45,7 @@ Esta pregunta necesita referencias que permitan situar el problema y distinguir 
 
 #### Métodos y antecedentes computacionales
 
-| N.º en la postulación | Referencia | Qué hace y cómo se relaciona con TmaqT |
+| N.º en la postulación | Referencia | Qué hace y cómo se relaciona con esta experiencia |
 |---|---|---|
 | **[17]** | [Kohonen (1990) — The Self-Organizing Map](https://ieeexplore.ieee.org/document/58325/) | Presenta los mapas autoorganizados (SOM), una red neuronal no supervisada que organiza datos multidimensionales en una representación de menor dimensión y preserva relaciones topológicas. En TmaqT se utiliza para explorar y navegar relaciones entre configuraciones táctiles sin depender de categorías predefinidas. |
 | **[18]** | [Knox y Stone (2009) — The TAMER Framework](https://doi.org/10.1145/1597735.1597738) · [PDF del artículo](https://www.cs.utexas.edu/~bradknox/papers/kcap09-knox.pdf) | TAMER (*Training an Agent Manually via Evaluative Reinforcement*) es un marco en el que una persona entrega señales evaluativas —por ejemplo, aprobación o desaprobación— y el agente aprende un modelo de esa retroalimentación para orientar sus acciones. Es un antecedente para explorar cómo la retroalimentación humana puede participar en el aprendizaje. En TmaqT se ha considerado como exploración inicial; no debe describirse como si el sistema ya implementara íntegramente TAMER. |
@@ -195,21 +195,6 @@ Estos conceptos aparecen en las notas de investigación y ayudan a organizar el 
 - **Agencia humana:** capacidad de la persona para conducir, modificar y dar sentido a la interacción, sin quedar subordinada a interpretaciones impuestas por el sistema.
 - **Relación entre tecnología y tradiciones textiles:** articulación crítica entre computación contemporánea, materialidad y saberes textiles, evitando reducir estos últimos a meros recursos formales o funcionales.
 
----
-
-## 6. Pendientes de revisión antes de cerrar la postulación
-
-1. **Numeración de TAMER:** en la Pregunta 3 aparece como [17], pero en la Pregunta 2 [17] corresponde a Kohonen. Se propone asignar TAMER como [18] para evitar la duplicación.
-2. **Numeración de CSTC y STEM:** mantener CSTC como [7] y Bootcamp STEM UC como [8], tal como queda organizado en la lista de la Pregunta 1.
-3. **Tesis de Magíster:** completar el título exacto de la tesis en la entrada APA.
-4. **EAIM 2027:** describir el trabajo como enviado y en revisión, no como aceptado o presentado.
-5. **ALPACA 2025:** identificar TTT2 como presentación de ponencia, no como artículo publicado.
-6. **Moflin:** mantenerlo como ejemplo de aplicación comercial de interacción encarnada, no como referencia académica que defina IA física.
-7. **TAMER:** presentarlo como antecedente de aprendizaje mediante retroalimentación evaluativa humana. No equipararlo directamente con aprendizaje no supervisado ni con coadaptación.
-8. **Computación afectiva e inferencia activa:** si se mantienen como marcos importantes de la propuesta, incorporar bibliografía teórica específica y explicar con precisión qué papel tendrán en la investigación.
-9. **Impacto regional:** si se quiere sostener una contribución a regiones distintas de la Metropolitana, añadir antecedentes concretos de colaboración, actividades, instituciones o contextos territoriales. Las referencias actuales no bastan por sí solas para demostrar ese impacto.
-10. **Referencias APA:** revisar los metadatos finales de cada publicación y el título oficial de la tesis antes de entregar la versión definitiva.
-
----
+------
 
 *Documento de trabajo. Las descripciones resumen la pertinencia de cada fuente para la propuesta TmaqT; no sustituyen la lectura de los textos originales ni atribuyen a los trabajos objetivos que no declaran.*
