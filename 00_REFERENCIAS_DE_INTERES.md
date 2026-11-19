@@ -2,7 +2,7 @@
 
 Documento de apoyo para la propuesta doctoral. Reúne las fuentes que son citadas y/o sirven para la investigación, explica qué aporta cada una y distingue entre publicaciones académicas, espacios de comunidad, antecedentes metodológicos y experimentación propia.
 
-> **Criterio de organización:** las referencias se presentan primero según su función. Después se reúne la bibliografía académica en formato APA 7, los espacios institucionales y comunidades, y los antecedentes de experimentación. Las descripciones indican la relación de cada fuente con la investigación; no implican que todos los trabajos desarrollen el mismo enfoque que TmaqT: este proceso de investigación pre y para el doctorado.
+> **Criterio de organización:** las referencias se presentan primero según su función. Después se reúne la bibliografía académica en formato APA 7, los espacios institucionales y comunidades, y los antecedentes de experimentación. Las descripciones indican la relación de cada fuente con la investigación; no implican que todos los trabajos desarrollen el mismo enfoque que este tiempo y experimento realizado desde la tesis de magister TTT2, y que ahora se llama TmaqT.
 
 ---
 
@@ -16,16 +16,22 @@ Es la trayectoria que conduce a la propuesta doctoral: investigación textil, in
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **[0]**               | [Repositorio GitHub: repo_registro_phd_2026](https://github.com/lelex76/repo_registro_phd_2026/blob/main/00_REFERENCIAS_DE_INTERES.md)                                                                                                                             | Reúne referencias, documentación y prototipos experimentales vinculados al desarrollo de TmaqT. Permite mostrar el proceso de investigación y sus antecedentes técnicos.                                                                                                                   |
 | **[1]**               | [Tesis de Magíster, Universidad de Chile](https://repositorio.uchile.cl/handle/2250/207390)                                                                                                                                                                        | Antecedente directo de la propuesta doctoral. Documenta la investigación previa sobre interacción textil y establece la base material, sensorial y metodológica desde la que se plantea avanzar hacia sistemas de interacción humano–IA.                                                   |
-| **[2]**               | [Ríos (2024), *Textiles, Techniques, Technologies*](https://soctech.spbstu.ru/en/article/2024.16.8/)                                                                                                                                                               | Publicación sobre prácticas textiles, técnicas y tecnologías contemporáneas. Da cuenta de la línea de investigación que vincula cultura material, prácticas textiles y tecnologías.                                                                                                        |
+
+| **[2]**               | [Ríos (2024), *Textiles, Techniques, Technologies*](https://soctech.spbstu.ru/en/article/2024.16.8/)                                                                                                                                                               | Publicación sobre prácticas textiles, técnicas y tecnologías contemporáneas. Da cuenta de la línea de investigación que vincula cultura material, prácticas textiles y tecnologías.  
+                                                                                                      |
 | **[3]**               | [Ríos Araya (2025), *TTT2: The Woven Skin* — ALPACA 2025](https://playground224.servus.at/de/node/4896)                                                                                                                                                            | Presentación de ponencia sobre TTT2, la codificación y significación a través de una (proto)escritura textil. Se relaciona con la exploración de interacción física, gesto, materialidad y sistemas computacionales. Es una ponencia, no un artículo de revista.                           |
+
 | **[4]**               | [Ríos (2026), *The Machinery of Weaving and the Woven Being*](https://soctech.spbstu.ru/en/article/2026.23.5/)                                                                                                                                                     | Publicación que aborda las relaciones entre tejido, computación textil y voces decoloniales. Amplía la línea de investigación hacia el sonido y las dimensiones culturales y políticas de la computación textil.                                                                           |
+
 | **[5]**               | [EAIM 2027 — Emerging AI Technologies for Music](https://amaai-lab.github.io/EAIM2027/)                                                                                                                                                                            | Espacio al que fue enviado el trabajo *Non-Agential Adaptive AI for Tactile Sonification*, actualmente en revisión según la postulación. El workshop aborda tecnologías emergentes de IA para la música, creatividad y agencia humana. La referencia acredita el envío, no una aceptación. |
+
 | **[6]**               | [NIME 2026 — New Interfaces for Musical Expression](https://nime2026.org/)                                                                                                                                                                                         | Conferencia internacional sobre nuevas interfaces para la expresión musical. En la postulación se menciona la asistencia al encuentro realizado en Londres en junio de 2026, como instancia de contacto con la comunidad de interacción musical y sonora.                                  |
+
 | **[7]**               | [CSTC — Centre for Sound and Technologies of Communication, Goldsmiths](https://www.gold.ac.uk/cstc/about/)                                                                                                                                                        | Centro de Goldsmiths dedicado a sonido y tecnologías de comunicación. En la postulación se menciona la invitación de Atau Tanaka para presentar la investigación en este contexto. Es un vínculo académico y de comunidad, no una publicación.                                             |
-| **[8]**               | [Bootcamp Docente STEM UC de Verano 2024](https://www.ing.uc.cl/eventos/bootcamp-docente-stem-uc-de-verano-2024/) y [Bootcamp STEM Docente de Verano 2025](https://www.ing.uc.cl/noticias/323-profesores-participaron-en-el-bootcamp-stem-docente-de-verano-2025/) | Antecedentes institucionales de formación y vinculación docente STEM. Respaldan la experiencia de transferencia de conocimientos y trabajo interdisciplinario en educación.                                                                                                                |
+| **[8]**               | [Bootcamp Docente STEM UC de Verano 2024](https://www.ing.uc.cl/eventos/bootcamp-docente-stem-uc-de-verano-2024/) y [Bootcamp STEM Docente de Verano 2025](https://www.ing.uc.cl/noticias/323-profesores-participaron-en-el-bootcamp-stem-docente-de-verano-2025/) | Antecedentes institucionales de formación y vinculación docente STEM. Respaldan la experiencia de transferencia de conocimientos y trabajo interdisciplinario en educación.                                                                                                               |
 | **[9]**               | [Moflin Education — Casio](https://education.casio.co.uk/moflin/)                                                                                                                                                                                                  | Ejemplo de aplicación comercial de un compañero robótico que responde y se adapta a las interacciones con las personas. Puede ilustrar una aproximación de IA encarnada, pero no es una fuente académica ni una definición general de IA física.                                           |
 
-**Cómo se conectan estas referencias en la Pregunta 1:** la tesis y las publicaciones muestran la continuidad de una investigación propia; EAIM y NIME sitúan el trabajo en comunidades de IA musical e interacción sonora; CSTC documenta un vínculo académico; STEM UC respalda la experiencia docente y de transferencia; Moflin funciona únicamente como ejemplo de una aplicación de IA encarnada.
+**Cómo se conectan estas referencias :** la tesis y las publicaciones muestran la continuidad de una investigación propia; EAIM y NIME sitúan el trabajo en comunidades de IA musical e interacción sonora; CSTC documenta un vínculo académico; STEM UC respalda la experiencia docente y de transferencia; Moflin funciona únicamente como ejemplo de una aplicación de IA encarnada.
 
 ### 2. Objetivos, estado del arte, metodología y factibilidad
 
@@ -36,11 +42,17 @@ Son referencias que permitan situar el problema y distinguir la contribución de
 | N.º | Referencia | Qué estudia y por qué es relevante |
 |---|---|---|
 | **[10]** | [Cui et al. (2025) — Flexible and wearable tactile sensors for intelligent interfaces](https://pmc.ncbi.nlm.nih.gov/articles/PMC12429216/) | Revisión de sensores táctiles flexibles y vestibles para interfaces inteligentes. Examina materiales, mecanismos de sensado y desafíos de adaptación y retroalimentación. Sirve para contextualizar las posibilidades y limitaciones técnicas del sensado táctil. No demuestra por sí sola que las interfaces textiles sean necesariamente binarias. |
+
 | **[11]** | [Guennes et al. (2025) — Smart textile design](https://www.mdpi.com/2227-7080/13/6/251) | Revisión sistemática de materiales, tecnologías y métodos de evaluación de experiencia de usuario en textiles inteligentes. Aporta una visión general del campo y ayuda a fundamentar la evaluación de la experiencia de interacción. |
+
 | **[12]** | [Jiang et al. (2026) — Design for emotional well-being](https://www.tandfonline.com/doi/full/10.1080/14606925.2025.2577951) | Presenta un enfoque de diseño textil interactivo centrado en el cuerpo, con casos que exploran movimiento, gestos, texturas y retroalimentación multisensorial en relación con el bienestar emocional. Es pertinente para abrir la dimensión corporal y afectiva de la interacción. |
+
 | **[13]** | [Luo et al. (2024) — Adaptive tactile interaction transfer via digitally embroidered smart gloves](https://www.nature.com/articles/s41467-024-45059-8) | Desarrolla guantes bordados digitalmente con sensores piezorresistivos y actuadores vibrotáctiles. Utiliza aprendizaje automático para adaptar la retroalimentación háptica a las respuestas individuales. Es un antecedente cercano por integrar textil, sensado y adaptación computacional. Su objetivo se orienta a transferir y adaptar información táctil; TmaqT investiga la exploración de trayectorias táctiles y su transformación en sonido. |
+
 | **[14]** | [Page et al. (2025) — Tangible AI interfaces](https://dl.designresearchsociety.org/iasdr/iasdr2025/fullpapers/359/) | Explora, mediante dos artefactos, formas tangibles y encarnadas de interacción con IA. Examina cómo la presencia física y la interacción multisensorial pueden modificar la percepción y el uso de sistemas de IA. |
+
 | **[15]** | [Tanaka et al. (2019) — Designing Gestures for Continuous Sonic Interaction](https://zenodo.org/records/3672916) | Investiga el diseño de gestos para controlar sonido de manera continua, en el ámbito de las interfaces musicales y el aprendizaje automático interactivo. Es relevante para pensar la relación temporal entre movimiento corporal y parámetros sonoros. |
+
 | **[16]** | [Zbyszyński et al. (2019) — The Effect of Co-adaptive Learning & Feedback in Interactive Machine Learning](https://figshare.le.ac.uk/articles/conference_contribution/The_Effect_of_Co-adaptive_Learning_Feedback_in_Interactive_Machine_Learning/12361529/1?file=22781708) | Aborda el aprendizaje coadaptativo y la retroalimentación en sistemas de aprendizaje automático interactivo. Es relevante porque considera que la persona y el modelo pueden adaptarse durante el proceso de interacción. |
 
 #### Métodos y antecedentes computacionales
@@ -48,27 +60,30 @@ Son referencias que permitan situar el problema y distinguir la contribución de
 | N.º | Referencia | Qué hace y cómo se relaciona con esta experiencia |
 |---|---|---|
 | **[17]** | [Kohonen (1990) — The Self-Organizing Map](https://ieeexplore.ieee.org/document/58325/) | Presenta los mapas autoorganizados (SOM), una red neuronal no supervisada que organiza datos multidimensionales en una representación de menor dimensión y preserva relaciones topológicas. En TmaqT se utiliza para explorar y navegar relaciones entre configuraciones táctiles sin depender de categorías predefinidas. |
+
 | **[18]** | [Knox y Stone (2009) — The TAMER Framework](https://doi.org/10.1145/1597735.1597738) · [PDF del artículo](https://www.cs.utexas.edu/~bradknox/papers/kcap09-knox.pdf) | TAMER (*Training an Agent Manually via Evaluative Reinforcement*) es un marco en el que una persona entrega señales evaluativas —por ejemplo, aprobación o desaprobación— y el agente aprende un modelo de esa retroalimentación para orientar sus acciones. Es un antecedente para explorar cómo la retroalimentación humana puede participar en el aprendizaje. En TmaqT se ha considerado como exploración inicial; no debe describirse como si el sistema ya implementara íntegramente TAMER. |
 
 **Distinción importante sobre TAMER:** TAMER no es simplemente cualquier sistema que se adapta al usuario ni un modelo de aprendizaje no supervisado. En su formulación, la persona proporciona señales de refuerzo evaluativo y el agente aprende a modelarlas. En la propuesta puede citarse como antecedente de aprendizaje guiado por retroalimentación humana, dejando claro que la investigación explora una interacción táctil continua y material, distinta de la señal evaluativa convencional.
 
 **Antecedente anterior de TAMER (opcional):**
 
-- [Knox y Stone (2008), *TAMER: Training an Agent Manually via Evaluative Reinforcement*](https://www.cs.utexas.edu/~pstone/Papers/bib2html/class_rescat.html). Es una publicación anterior de los autores sobre el marco. Si se cita en la postulación, debe incorporarse también a la bibliografía y ajustar la numeración.
+- [Knox y Stone (2008), *TAMER: Training an Agent Manually via Evaluative Reinforcement*](https://www.cs.utexas.edu/~pstone/Papers/bib2html/class_rescat.html). Es una publicación anterior de los autores sobre el marco. 
 
-**Cómo se conectan estas referencias en la Pregunta 2:** Cui y Guennes sitúan el sensado y los textiles inteligentes; Jiang abre la dimensión corporal y afectiva; Luo ofrece un antecedente textil con adaptación háptica; Tanaka vincula gesto y sonido; Zbyszyński aborda la coadaptación; Page estudia interfaces tangibles de IA. Kohonen y TAMER, en cambio, respaldan antecedentes metodológicos y computacionales que se relacionan con la experimentación de TmaqT.
+**Cómo se conectan estas referencias :** Cui y Guennes sitúan el sensado y los textiles inteligentes; Jiang abre la dimensión corporal y afectiva; Luo ofrece un antecedente textil con adaptación háptica; Tanaka vincula gesto y sonido; Zbyszyński aborda la coadaptación; Page estudia interfaces tangibles de IA. Kohonen y TAMER, en cambio, respaldan antecedentes metodológicos y computacionales que se relacionan con la experimentación realizada hasta ahora.
+
 
 ### 3. Intereses, formación y proyección
 
 Las referencias que respaldan la elección del programa de doctorado, las competencias previas y las proyecciones. En la versión actual aparecen principalmente:
 
 - **[1] Tesis de Magíster:** antecedente formativo e investigativo directo.
-- **[2]–[4] Publicaciones y ponencia propias:** evidencian continuidad y capacidad de desarrollar y comunicar investigación.
-- **[17] Kohonen / SOM:** antecedente técnico de exploración de datos táctiles mediante aprendizaje no supervisado.
-- **TAMER:** antecedente de aprendizaje con retroalimentación humana. En la numeración consolidada de este documento corresponde a **[18]**; en el borrador de la Pregunta 3 aparece como [17], lo que produce una colisión con Kohonen [17] en la Pregunta 2.
-- **Cursos del programa doctoral:** Interfaces Humano-Computador, Aprendizaje Reforzado y Aprendizaje Profundo se mencionan como áreas de formación que contribuirían al desarrollo del proyecto. La oferta y disponibilidad deben comprobarse en la información oficial del programa antes de cerrar la postulación.
 
-**Corrección de numeración pendiente:**  Kohonen como [17] y TAMER como [18] en todo.
+- **[2]–[4] Publicaciones y ponencia propias:** evidencian continuidad y capacidad de desarrollar y comunicar investigación.
+
+- **[17] Kohonen / SOM:** antecedente técnico de exploración de datos táctiles mediante aprendizaje no supervisado.
+
+- **[18] TAMER:** antecedente de aprendizaje con retroalimentación humana. 
+
 
 ---
 
@@ -96,7 +111,7 @@ Knox, W. B., & Stone, P. (2009). Interactively shaping agents via human reinforc
 
 Kohonen, T. (1990). The self-organizing map. *Proceedings of the IEEE, 78*(9), 1464–1480. https://doi.org/10.1109/5.58325
 
-### Publicaciones y trabajos propios
+### Tres Publicaciones recientes
 
 Ríos, M. J. (2024). Textiles, techniques, technologies: Exploring post-ancestrality and contemporary practices. *Technology and Language, 5*(3), 106–121. https://soctech.spbstu.ru/en/article/2024.16.8/
 
@@ -110,9 +125,9 @@ Casio. (s. f.). *Moflin Education*. https://education.casio.co.uk/moflin/
 
 ### Tesis Magister MaM 2025
 
-Ríos Araya, M. J. (2025). *[Título de la tesis de Magíster]* [Tesis de Magíster, Universidad de Chile]. Repositorio Académico de la Universidad de Chile. https://repositorio.uchile.cl/handle/2250/207390
+Ríos Araya, M. J. (2025). *TTT2: La piel Tejida* [Tesis de Magíster, Universidad de Chile]. Repositorio Académico de la Universidad de Chile. https://repositorio.uchile.cl/handle/2250/207390
 
-> **Nota bibliográfica:** completar el título exacto de la tesis tal como aparece en el repositorio antes de usar esta entrada en una bibliografía APA definitiva.
+
 
 ---
 
