@@ -1,16 +1,16 @@
 # Referencias, bibliografía, comunidades y experimentación — TmaqT (experiencia textil, tecnologia, tacto)
 
-Documento de apoyo para las tres preguntas de la postulación doctoral. Reúne las fuentes que aparecen citadas en la postulación, explica qué aporta cada una y distingue entre publicaciones académicas, espacios de comunidad, antecedentes metodológicos y experimentación propia.
+Documento de apoyo para la propuesta doctoral. Reúne las fuentes que son citadas y/o sirven para la investigación, explica qué aporta cada una y distingue entre publicaciones académicas, espacios de comunidad, antecedentes metodológicos y experimentación propia.
 
-> **Criterio de organización:** las referencias se presentan primero según su función en cada pregunta de la postulación. Después se reúne la bibliografía académica en formato APA 7, los espacios institucionales y comunidades, y los antecedentes de experimentación. Las descripciones indican la relación de cada fuente con la investigación; no implican que todos los trabajos desarrollen el mismo enfoque que TmaqT.
+> **Criterio de organización:** las referencias se presentan primero según su función. Después se reúne la bibliografía académica en formato APA 7, los espacios institucionales y comunidades, y los antecedentes de experimentación. Las descripciones indican la relación de cada fuente con la investigación; no implican que todos los trabajos desarrollen el mismo enfoque que TmaqT: este proceso de investigación pre y para el doctorado.
 
 ---
 
-## 1. Referencias según las tres preguntas de la postulación
+## 1. Referencias 
 
-### Pregunta 1. Trayectoria, docencia e investigación
+### Trayectoria, docencia e investigación
 
-Esta pregunta presenta la trayectoria que conduce a la propuesta doctoral: investigación textil, interacción física, sonido, publicaciones, participación en encuentros, docencia y vinculación interdisciplinaria.
+Es la trayectoria que conduce a la propuesta doctoral: investigación textil, interacción física, sonido, publicaciones, participación en encuentros, docencia y vinculación interdisciplinaria.
 
 | N.º | Referencia o antecedente                                                                                                                                                                                                                                           | Qué es y qué aporta al relato                                                                                                                                                                                                                                                              |
 | --------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
@@ -27,9 +27,9 @@ Esta pregunta presenta la trayectoria que conduce a la propuesta doctoral: inves
 
 **Cómo se conectan estas referencias en la Pregunta 1:** la tesis y las publicaciones muestran la continuidad de una investigación propia; EAIM y NIME sitúan el trabajo en comunidades de IA musical e interacción sonora; CSTC documenta un vínculo académico; STEM UC respalda la experiencia docente y de transferencia; Moflin funciona únicamente como ejemplo de una aplicación de IA encarnada.
 
-### Pregunta 2. Objetivos, estado del arte, metodología y factibilidad
+### 2. Objetivos, estado del arte, metodología y factibilidad
 
-Esta pregunta necesita referencias que permitan situar el problema y distinguir la contribución de esta experiencia. Las fuentes se agrupan por dimensión, no como si todas abordaran el mismo objeto.
+Son referencias que permitan situar el problema y distinguir la contribución de esta experiencia. Las fuentes se agrupan por dimensión, no como si todas abordaran el mismo objeto.
 
 #### Estado del arte: tacto, textiles, gesto, sonido e interfaces tangibles de IA
 
@@ -58,9 +58,9 @@ Esta pregunta necesita referencias que permitan situar el problema y distinguir 
 
 **Cómo se conectan estas referencias en la Pregunta 2:** Cui y Guennes sitúan el sensado y los textiles inteligentes; Jiang abre la dimensión corporal y afectiva; Luo ofrece un antecedente textil con adaptación háptica; Tanaka vincula gesto y sonido; Zbyszyński aborda la coadaptación; Page estudia interfaces tangibles de IA. Kohonen y TAMER, en cambio, respaldan antecedentes metodológicos y computacionales que se relacionan con la experimentación de TmaqT.
 
-### Pregunta 3. Declaración de intereses, formación y proyección
+### 3. Intereses, formación y proyección
 
-En esta pregunta las referencias deben respaldar la elección del programa, las competencias previas y las proyecciones. En la versión actual aparecen principalmente:
+Las referencias que respaldan la elección del programa de doctorado, las competencias previas y las proyecciones. En la versión actual aparecen principalmente:
 
 - **[1] Tesis de Magíster:** antecedente formativo e investigativo directo.
 - **[2]–[4] Publicaciones y ponencia propias:** evidencian continuidad y capacidad de desarrollar y comunicar investigación.
@@ -68,11 +68,11 @@ En esta pregunta las referencias deben respaldar la elección del programa, las 
 - **TAMER:** antecedente de aprendizaje con retroalimentación humana. En la numeración consolidada de este documento corresponde a **[18]**; en el borrador de la Pregunta 3 aparece como [17], lo que produce una colisión con Kohonen [17] en la Pregunta 2.
 - **Cursos del programa doctoral:** Interfaces Humano-Computador, Aprendizaje Reforzado y Aprendizaje Profundo se mencionan como áreas de formación que contribuirían al desarrollo del proyecto. La oferta y disponibilidad deben comprobarse en la información oficial del programa antes de cerrar la postulación.
 
-**Corrección de numeración pendiente:** en el borrador de la Pregunta 3, TAMER aparece como [17], pero en la Pregunta 2 [17] corresponde a Kohonen. Para un documento final sin ambigüedades, se recomienda mantener Kohonen como [17] y TAMER como [18] en ambas preguntas, o usar un sistema de referencias independiente para cada respuesta si la plataforma de postulación lo permite.
+**Corrección de numeración pendiente:**  Kohonen como [17] y TAMER como [18] en todo.
 
 ---
 
-## 2. Bibliografía académica (APA 7)
+## 2. Bibliografía(APA 7)
 
 ### Estado del arte: interacción táctil, textil, sonora y humano–IA
 
@@ -108,7 +108,7 @@ Ríos, M. J. (2026). The machinery of weaving and the woven being: Decolonial vo
 
 Casio. (s. f.). *Moflin Education*. https://education.casio.co.uk/moflin/
 
-### Tesis
+### Tesis Magister MaM 2025
 
 Ríos Araya, M. J. (2025). *[Título de la tesis de Magíster]* [Tesis de Magíster, Universidad de Chile]. Repositorio Académico de la Universidad de Chile. https://repositorio.uchile.cl/handle/2250/207390
 
@@ -129,9 +129,9 @@ Ríos Araya, M. J. (2025). *[Título de la tesis de Magíster]* [Tesis de Magís
 
 ---
 
-## 4. Experimentación propia y antecedentes de desarrollo de TmaqT
+## 4. Experimentación propia y antecedentes de desarrollo de este proceso TmaqT
 
-Esta sección reúne los métodos y prototipos que sustentan la factibilidad de la propuesta. No todos corresponden a publicaciones revisadas por pares: son antecedentes de investigación y desarrollo experimental.
+Esta sección reúne los métodos y prototipos que sustentan la factibilidad de la propuesta. No todos corresponden a publicaciones revisadas por pares: son antecedentes de investigación y desarrollo experimental personal.
 
 ### 4.1. Desarrollo de la interfaz textil y captura táctil
 
