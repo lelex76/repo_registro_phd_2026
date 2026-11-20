@@ -110,6 +110,10 @@ Tanaka, A., Di Donato, B., Zbyszyński, M., & Roks, G. (2019). Designing gesture
 
 Zbyszyński, M., Di Donato, B., & Tanaka, A. (2019). The effect of co-adaptive learning & feedback in interactive machine learning. *CHI 2019 Workshop on Human-Centered Machine Learning Perspectives*. https://figshare.le.ac.uk/articles/conference_contribution/The_Effect_of_Co-adaptive_Learning_Feedback_in_Interactive_Machine_Learning/12361529/1
 
+Suchman, L. (2007). Human-machine reconfigurations: Plans and situated actions (2nd ed.). Cambridge University Press.
+
+La precisión importante: Suchman fundamenta la dimensión situada de la interacción, no demuestra por sí sola que una IA sea adaptativa o aprenda de la participación de las personas.
+
 ### Métodos y antecedentes computacionales
 
 Knox, W. B., & Stone, P. (2009). Interactively shaping agents via human reinforcement: The TAMER framework. In *Proceedings of the Fifth International Conference on Knowledge Capture* (pp. 9–16). ACM. https://doi.org/10.1145/1597735.1597738
