@@ -124,6 +124,8 @@ Ríos Araya, M. J. (2025, septiembre 19–20). *TTT2: The Woven Skin — Coding 
 
 Ríos, M. J. (2026). The machinery of weaving and the woven being: Decolonial voices through textile computation. *Technology and Language, 7*(2), 57–65. https://soctech.spbstu.ru/en/article/2026.23.5/
 
+[19] Ríos, M. J. (2024, 22 de enero). Pieles situadas que datifican: Lo textil como superficie y artefacto portable de datos, situación y transformación. Barbarie. https://www.barbarie.lat/post/pieles-situadas-que-datifican-lo-textil-como-superficie-y-artefacto-portable-de-datos-situaci%C3%B3n-y 
+
 ### Referencia de aplicación / ejemplo no académico
 
 Casio. (s. f.). *Moflin Education*. https://education.casio.co.uk/moflin/
