@@ -148,11 +148,9 @@ Ríos Araya, M. J. (2025). *TTT2: La piel Tejida* [Tesis de Magíster, Universid
 | **ALPACA 2025** — Algorithmic Patterns in the Creative Arts | https://playground224.servus.at/de/node/4896 | Encuentro en el que se presentó TTT2: The Woven Skin. Vincula prácticas artísticas, patrones algorítmicos y procesos creativos computacionales. |
 | **Technology and Language** | https://soctech.spbstu.ru/en/ | Revista en la que se publicaron dos trabajos propios: el artículo de 2024 sobre textiles, técnicas y tecnologías y el de 2026 sobre tejido y computación textil. |
 | **Bootcamp STEM UC** | https://www.ing.uc.cl/eventos/bootcamp-docente-stem-uc-de-verano-2024/ | Espacio de formación docente interdisciplinaria en STEM, relacionado con la experiencia de docencia, transferencia y articulación entre tecnología y educación. |
-|[20] **Bootcamp STEM UC** | https://www.youtube.com/watch?v=2CWxFuMPtXk | https://liquenlab.cl/2020/05/20/revisa-el-video-resumen-del-taller-electro-textiles-en-punta-arenas-y-puerto-williams/ 
-Taller impartido en Punta Arenas y en el Fab Lab UC Puerto williams : ELECTRO TEXTILES, taller organizado por la Red Liquenlab a cargo de Maria Jose ríos 
-en el mes de Agosto en la ciudad de Punta Arenas y Puerto Williams
+| [20] **Taller Electrotextiles** | https://www.youtube.com/watch?v=2CWxFuMPtXk |https://liquenlab.cl/2020/05/20/revisa-el-video-resumen-del-taller-electro-textiles-en-punta-arenas-y-puerto-williams/ |
 
----
+ ---
 
 ## 4. Experimentación propia y antecedentes de desarrollo de este proceso TmaqT
 
