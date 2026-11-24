@@ -54,3 +54,53 @@ aumentando al tocar y disminuyendo al soltar.
 
 6. **Adaptación:** `GrowingNeuralGas` (GNG) actualiza la organización de las representaciones gestuales a partir 
 del uso, explorando relaciones que pueden modificarse con la experiencia.
+
+
+## Proyección: retroalimentación y coadaptación humano–IA
+
+A partir de la arquitectura de TMAQT v15, la investigación doctoral pretende explorar un sistema de interacción 
+humano–IA basado en retroalimentación recíproca, aprendizaje no supervisado en línea (*online unsupervised 
+learning*) y generación sonora. Se busca que la persona no solo produzca gestos táctiles que el sistema transforma 
+en sonido, sino que también pueda intervenir en las propuestas sonoras generadas por la IA. A su vez, el sistema 
+podrá incorporar nuevas experiencias táctiles, modificar progresivamente su organización interna y generar nuevas 
+respuestas. Se propone así investigar un proceso de coadaptación en el que la persona y el sistema puedan 
+influirse mutuamente, manteniendo la persona el control sobre los materiales de partida y las condiciones y 
+límites del aprendizaje y la generación.
+
+### Referente: jam_bot — MIT Media Lab
+
+El proyecto *Jordan Rudess + jam_bot: A Human-AI Musical Dialogue*, desarrollado por el grupo Responsive 
+Environments del MIT Media Lab, constituye un referente para esta proyección. jam_bot es un sistema de IA 
+generativa diseñado para improvisar musicalmente junto a un intérprete. Escucha la interpretación humana, genera 
+respuestas musicales en tiempo real y puede asumir distintos roles dentro de la improvisación, alternando entre 
+acompañar al músico y proponer material propio.
+
+Su interés para TmaqT reside en explorar la IA como un agente creativo que no solo responde a la persona, sino que 
+también propone e interviene en un proceso sonoro compartido. TmaqT busca ampliar esta perspectiva incorporando el 
+tacto como medio de interacción y el aprendizaje incremental no supervisado como una dimensión adicional de 
+adaptación del sistema. A diferencia de jam_bot, la propuesta contempla que las nuevas experiencias táctiles 
+puedan modificar progresivamente la organización interna del modelo y afectar sus futuras respuestas sonoras.
+
+### Dos precisiones para mantener rigurosa la síntesis
+
+- **jam_bot es un referente de generación, improvisación y retroalimentación interactiva**, no una demostración de 
+aprendizaje no supervisado continuo durante la actuación. Sus modelos se preentrenan y ajustan (*fine-tuning*) con 
+interpretaciones de Jordan Rudess.
+
+- **La coadaptación que propones para TmaqT va un paso más allá:** no solo cambiaría la respuesta del sistema ante 
+cada intervención; investigarías si las experiencias táctiles pueden modificar progresivamente su organización 
+interna y, a través de ella, sus propuestas sonoras.
+
+### Referencias
+
+Blanchard, L., Naseck, P., Brade, S., Lecamwasam, K., Rudess, J., Huang, C.-Z. A., & Paradiso, J. (2025). *The 
+jam_bot, a Real-Time System for Collaborative Free Improvisation with Music Language Models*. Proceedings of the 
+26th International Society for Music Information Retrieval Conference, 755–762. 
+https://doi.org/10.5281/zenodo.17811478
+
+Blanchard, L., Naseck, P., Liang, K., Tan, J., Lei, H., Huang, C.-Z. A., & Paradiso, J. (2026). *Enhancing 
+Expressive Musical Conversation in the jam_bot*. Proceedings of the International Conference on New Interfaces for 
+Musical Expression, 621–626. https://doi.org/10.5281/zenodo.20784228
+
+MIT Media Lab. *Jordan Rudess + jam_bot: A Human-AI Musical Dialogue*. 
+https://www.media.mit.edu/projects/jordan-rudess-genai/overview/
