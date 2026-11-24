@@ -3,8 +3,27 @@
 Documento de apoyo para la propuesta doctoral. Reúne las fuentes que son citadas y/o sirven para la investigación, explica qué aporta cada una y distingue entre publicaciones académicas, espacios de comunidad, antecedentes metodológicos y experimentación propia.
 
 > **Criterio de organización:** las referencias se presentan primero según su función. Después se reúne la bibliografía académica en formato APA 7, los espacios institucionales y comunidades, y los antecedentes de experimentación. Las descripciones indican la relación de cada fuente con la investigación; no implican que todos los trabajos desarrollen el mismo enfoque que este tiempo y experimento realizado desde la tesis de magister TTT2, y que ahora se llama TmaqT.
+## Proyección de la investigación doctoral
 
----
+El doctorado fortalecerá mi formación interdisciplinaria y contribuirá al desarrollo de un modelo de interacción 
+física humano–IA que integre tacto, materialidad y sonido. La investigación busca explorar sus proyecciones en 
+creación sonora, bienestar y rehabilitación, desarrollando tecnologías adaptables a distintos contextos. Se 
+propone abordar la IA como un sistema cuya construcción y aprendizaje ocurren en relación con las personas, sus 
+prácticas y materialidades (Suchman, 2007).
+
+## De TTT2 a TmaqT
+
+Este repositorio documenta la continuidad de una investigación iniciada con TTT2, desarrollado en el contexto de 
+mi tesis de Magíster, y su evolución hacia TmaqT. Reúne antecedentes teóricos, referencias metodológicas y 
+experimentos propios que permiten observar cómo la investigación ha avanzado desde la exploración de la 
+interacción textil hacia el estudio de gestos táctiles, espacios latentes y transformaciones sonoras.
+
+La experimentación no se presenta como un sistema terminado, sino como una base de trabajo desde la cual 
+investigar nuevas formas de interacción humano–IA. En esta etapa, interesa especialmente estudiar cómo el contacto 
+físico puede participar en el aprendizaje del sistema y cómo las relaciones que emergen de esa interacción pueden 
+producir respuestas sonoras.
+
+--- ---
 
 ## 1. Referencias 
 
@@ -114,6 +133,11 @@ Suchman, L. (2007). Human-machine reconfigurations: Plans and situated actions (
 
 La precisión importante: Suchman fundamenta la dimensión situada de la interacción, no demuestra por sí sola que una IA sea adaptativa o aprenda de la participación de las personas.
 
+[21] Bailon Maxi, J. E., & Roncoroni Osio, U. L. (2024). Computational creativity without computers. Journal of Science and Technology of the Arts, 16(1), 102–125. https://doi.org/10.34632/jsta.2024.15648
+
+Se aborda la creatividad computacional desde una perspectiva que cuestiona la automatización pura y reivindica la importancia de los procesos analógicos, los materiales y las identidades culturales, lo cual dialoga directamente con tu enfoque sobre agencia material e interpretación humana . 
+
+
 ### Métodos y antecedentes computacionales
 
 Knox, W. B., & Stone, P. (2009). Interactively shaping agents via human reinforcement: The TAMER framework. In *Proceedings of the Fifth International Conference on Knowledge Capture* (pp. 9–16). ACM. https://doi.org/10.1145/1597735.1597738
@@ -153,6 +177,7 @@ Ríos Araya, M. J. (2025). *TTT2: La piel Tejida* [Tesis de Magíster, Universid
 | **Technology and Language** | https://soctech.spbstu.ru/en/ | Revista en la que se publicaron dos trabajos propios: el artículo de 2024 sobre textiles, técnicas y tecnologías y el de 2026 sobre tejido y computación textil. |
 | **Bootcamp STEM UC** | https://www.ing.uc.cl/eventos/bootcamp-docente-stem-uc-de-verano-2024/ | Espacio de formación docente interdisciplinaria en STEM, relacionado con la experiencia de docencia, transferencia y articulación entre tecnología y educación. |
 | [20] **Taller Electrotextiles** | https://www.youtube.com/watch?v=2CWxFuMPtXk |https://liquenlab.cl/2020/05/20/revisa-el-video-resumen-del-taller-electro-textiles-en-punta-arenas-y-puerto-williams/ |
+
 
  ---
 
