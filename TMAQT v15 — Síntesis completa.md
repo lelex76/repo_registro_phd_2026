@@ -26,3 +26,31 @@ Se redujo **a propósito**, por tres razones:
 ---
 
 ## Arquitectura
+
+### Flujo general del sistema
+
+La arquitectura de TMAQT v15 organiza el procesamiento en una cadena que transforma el contacto físico en una 
+representación gestual y, posteriormente, en una respuesta sonora.
+
+**Contacto táctil → Captura sensora → Representación del gesto → Espacio latente 3D → Navegación y mezcla 
+sonora → Salida de audio**
+
+El sistema se compone de las siguientes etapas:
+
+1. **Captura táctil:** dos controladores MPR121 registran el contacto en 24 zonas capacitivas distribuidas en la 
+superficie textil.
+
+2. **Representación gestual:** las señales capturadas se procesan para construir un vector de 20 dimensiones 
+(`gesto_20d`), que resume características del gesto.
+
+3. **Reducción dimensional:** `HybridReducer` transforma la representación de 20 dimensiones en un espacio de tres 
+dimensiones (`z_wav`).
+
+4. **Navegación sonora:** `SonicNavigator` y `LatentSonifier` utilizan la representación tridimensional para 
+relacionar la trayectoria gestual con 27 archivos WAV y generar mezclas sonoras.
+
+5. **Control de respuesta:** el parámetro `gate` regula la intensidad sonora en relación con el contacto, 
+aumentando al tocar y disminuyendo al soltar.
+
+6. **Adaptación:** `GrowingNeuralGas` (GNG) actualiza la organización de las representaciones gestuales a partir 
+del uso, explorando relaciones que pueden modificarse con la experiencia.

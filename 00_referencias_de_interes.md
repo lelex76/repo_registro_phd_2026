@@ -23,7 +23,20 @@ investigar nuevas formas de interacción humano–IA. En esta etapa, interesa es
 físico puede participar en el aprendizaje del sistema y cómo las relaciones que emergen de esa interacción pueden 
 producir respuestas sonoras.
 
---- ---
+
+## Arquitectura actual: TMAQT v15
+
+La versión 15 representa el estado más reciente del desarrollo experimental de TmaqT. Integra captura táctil 
+mediante 24 zonas capacitivas, representación del gesto en un espacio latente tridimensional, navegación y mezcla 
+de material sonoro, y mecanismos de adaptación mediante Growing Neural Gas (GNG).
+
+La arquitectura y sus componentes técnicos se describen en el documento:
+
+[TMAQT v15 — Síntesis completa](./TMAQT%20v15%20%E2%80%94%20S%C3%ADntesis%20completa.md)
+
+
+
+ --- ---
 
 ## 1. Referencias 
 
