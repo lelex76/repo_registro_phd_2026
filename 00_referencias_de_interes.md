@@ -1,32 +1,37 @@
-# Referencias, bibliografía, comunidades y experimentación — TmaqT (experiencia textil, tecnologia, tacto)
+# Referencias, bibliografía, comunidades y experimentación — TmaqT
 
-Documento de apoyo para la propuesta doctoral. Reúne las fuentes que son citadas y/o sirven para la investigación, explica qué aporta cada una y distingue entre publicaciones académicas, espacios de comunidad, antecedentes metodológicos y experimentación propia.
+Documento de apoyo a mi propuesta doctoral. Reúne las referencias académicas, los espacios de investigación y comunidad, y mis antecedentes de experimentación en torno a la relación entre textil, tecnología, tacto e inteligencia artificial. Cada fuente se presenta según su aporte y su relación con la investigación, distinguiendo los trabajos publicados de mi propia trayectoria experimental, iniciada en la tesis de magíster TTT2 y continuada actualmente en TmaqT.
 
-> **Criterio de organización:** las referencias se presentan primero según su función. Después se reúne la bibliografía académica en formato APA 7, los espacios institucionales y comunidades, y los antecedentes de experimentación. Las descripciones indican la relación de cada fuente con la investigación; no implican que todos los trabajos desarrollen el mismo enfoque que este tiempo y experimento realizado desde la tesis de magister TTT2, y que ahora se llama TmaqT.
 ## Proyección de la investigación doctoral
 
-El doctorado fortalecerá mi formación interdisciplinaria y contribuirá al desarrollo de un modelo de interacción 
-física humano–IA que integre tacto, materialidad y sonido. La investigación busca explorar sus proyecciones en 
-creación sonora, bienestar y rehabilitación, desarrollando tecnologías adaptables a distintos contextos. Se 
-propone abordar la IA como un sistema cuya construcción y aprendizaje ocurren en relación con las personas, sus 
-prácticas y materialidades (Suchman, 2007).
+Busco fortalecer mi formación interdisciplinaria y desarrollar un modelo de interacción física humano–IA que integre tacto, materialidad y sonido. Me interesa explorar sus posibilidades en creación sonora, bienestar y rehabilitación, mediante tecnologías adaptables a distintos contextos, donde el aprendizaje de la IA se construya en relación con las personas, sus prácticas y materialidades (Suchman, 2007).
+*****
+
+Destaco La Conferencia perteneciente al ciclo _Human-Computer Partnerships_ (2021–2022).
+
+[Ver conferencia en YouTube](https://www.youtube.com/watch?v=dLuy9UZubPs)
+
+Mackay propone repensar la interacción humano–computador mediante asociaciones en las que los sistemas inteligentes amplían las capacidades humanas, en lugar de sustituirlas o reducir la participación de las personas. Su perspectiva permite situar la agencia humana, la interacción y la colaboración como dimensiones centrales del diseño de sistemas con IA.
+
+Esta aporta un marco conceptual para explorar una interacción humano–IA recíproca, en la que la persona participa activamente y el sistema adapta sus respuestas a través de la experiencia. Busca investigar esta relación desde la interacción físico-táctil, la materialidad textil y la generación sonora.
+
 
 ## De TTT2 a TmaqT
 
 Este repositorio documenta la continuidad de una investigación iniciada con TTT2, desarrollado en el contexto de 
-mi tesis de Magíster, y su evolución hacia TmaqT. Reúne antecedentes teóricos, referencias metodológicas y 
+mi tesis de Magíster, y su evolución. Reúne antecedentes teóricos, referencias metodológicas y 
 experimentos propios que permiten observar cómo la investigación ha avanzado desde la exploración de la 
 interacción textil hacia el estudio de gestos táctiles, espacios latentes y transformaciones sonoras.
 
 La experimentación no se presenta como un sistema terminado, sino como una base de trabajo desde la cual 
 investigar nuevas formas de interacción humano–IA. En esta etapa, interesa especialmente estudiar cómo el contacto 
-físico puede participar en el aprendizaje del sistema y cómo las relaciones que emergen de esa interacción pueden 
+físico puede participar en el aprendizaje del sistema, del interactuante y cómo las relaciones que emergen de esa interacción pueden 
 producir respuestas sonoras.
 
 
 ## Arquitectura actual: TMAQT v15
 
-La versión 15 representa el estado más reciente del desarrollo experimental de TmaqT. Integra captura táctil 
+La versión v15 representa el estado más reciente del desarrollo experimental. Integra captura táctil 
 mediante 24 zonas capacitivas, representación del gesto en un espacio latente tridimensional, navegación y mezcla 
 de material sonoro, y mecanismos de adaptación mediante Growing Neural Gas (GNG).
 
