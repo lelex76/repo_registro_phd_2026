@@ -7,16 +7,16 @@ Documento de apoyo a mi propuesta doctoral. Reúne las referencias académicas, 
 Busco fortalecer mi formación interdisciplinaria y desarrollar un modelo de interacción física humano–IA que integre tacto, materialidad y sonido. Me interesa explorar sus posibilidades en creación sonora, bienestar y rehabilitación, mediante tecnologías adaptables a distintos contextos, donde el aprendizaje de la IA se construya en relación con las personas, sus prácticas y materialidades (Suchman, 2007).
 *****
 
-Destaco La Conferencia perteneciente al ciclo _Human-Computer Partnerships_ (2021–2022).
+**[22]** Destaco La Conferencia perteneciente al ciclo _Human-Computer Partnerships_ (2021–2022).
 
 [Ver conferencia en YouTube](https://www.youtube.com/watch?v=dLuy9UZubPs)
 
-Mackay propone repensar la interacción humano–computador mediante asociaciones en las que los sistemas inteligentes amplían las capacidades humanas, en lugar de sustituirlas o reducir la participación de las personas. Su perspectiva permite situar la agencia humana, la interacción y la colaboración como dimensiones centrales del diseño de sistemas con IA.
+**Mackay** propone repensar la interacción humano–computador mediante asociaciones en las que los sistemas inteligentes amplían las capacidades humanas, en lugar de sustituirlas o reducir la participación de las personas. Su perspectiva permite situar la agencia humana, la interacción y la colaboración como dimensiones centrales del diseño de sistemas con IA.
 
 Esta aporta un marco conceptual para explorar una interacción humano–IA recíproca, en la que la persona participa activamente y el sistema adapta sus respuestas a través de la experiencia. Busca investigar esta relación desde la interacción físico-táctil, la materialidad textil y la generación sonora.
 
 
-## De TTT2 a TmaqT
+## De TTT2 a TmaqT (experimentos e investigación)
 
 Este repositorio documenta la continuidad de una investigación iniciada con TTT2, desarrollado en el contexto de 
 mi tesis de Magíster, y su evolución. Reúne antecedentes teóricos, referencias metodológicas y 
