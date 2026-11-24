@@ -87,8 +87,8 @@ puedan modificar progresivamente la organización interna del modelo y afectar s
 aprendizaje no supervisado continuo durante la actuación. Sus modelos se preentrenan y ajustan (*fine-tuning*) con 
 interpretaciones de Jordan Rudess.
 
-- **La coadaptación que propones para TmaqT va un paso más allá:** no solo cambiaría la respuesta del sistema ante 
-cada intervención; investigarías si las experiencias táctiles pueden modificar progresivamente su organización 
+- **La coadaptación que propongo para TmaqT va un paso más allá:** no busco únicamente que el sistema modifique su respuesta ante 
+cada intervención; me propongo investigar si las experiencias táctiles pueden transformar progresivamente su organización 
 interna y, a través de ella, sus propuestas sonoras.
 
 ### Referencias
