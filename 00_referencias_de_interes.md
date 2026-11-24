@@ -246,6 +246,21 @@ El punto central no es solamente detectar un contacto y asignarle una respuesta.
 **Repositorio de documentación y prototipos:**
 https://github.com/lelex76/repo_registro_phd_2026
 
+### jam_bot — Performance de improvisación humano–IA
+
+**Título:** Jordan and the JAM_BOT: A Human-AI Co-Created Performance
+
+**Video:** https://vimeo.com/1107163458/c358b5432b?fl=pl&fe=ti
+
+**Institución:** MIT Media Lab — Responsive Environments
+
+**Relevancia para TmaqT:** Referente de improvisación musical, generación 
+sonora e interacción recíproca entre intérprete y sistema de IA. Permite 
+observar cómo la IA puede alternar entre acompañar al músico y proponer 
+material sonoro propio.
+
+
+
 ---
 
 ## 5. Conceptos y líneas que se están desarrollando
