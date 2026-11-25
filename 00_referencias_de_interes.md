@@ -1,3 +1,12 @@
+## Archivo documental de VESTIBLES
+
+Como antecedente de mi trayectoria de investigación y creación, VESTIBLES 
+(fundada en 2015) cuenta con un archivo documental independiente que reúne 
+sus publicaciones, proyectos, talleres y actividades.
+
+Repositorio: https://github.com/lelex76/vestibles-plataforma
+
+
 # Referencias, bibliografía, comunidades y experimentación — TmaqT
 
 Documento de apoyo a mi propuesta doctoral. Reúne las referencias académicas, los espacios de investigación y comunidad, y mis antecedentes de experimentación en torno a la relación entre textil, tecnología, tacto e inteligencia artificial. Cada fuente se presenta según su aporte y su relación con la investigación, distinguiendo los trabajos publicados de mi propia trayectoria experimental, iniciada en la tesis de magíster TTT2 y continuada actualmente en TmaqT.
@@ -82,7 +91,9 @@ Son referencias que permitan situar el problema y distinguir la contribución de
 | N.º | Referencia | Qué estudia y por qué es relevante |
 |---|---|---|
 
-| **[10]** | [Cui et al. (2025) — Flexible and wearable tactile sensors for intelligent interfaces](https://pmc.ncbi.nlm.nih.gov/articles/PMC12429216/) | Revisión de sensores táctiles flexibles y vestibles para interfaces inteligentes. Examina materiales, mecanismos de sensado y desafíos de adaptación y retroalimentación. Sirve para contextualizar las posibilidades y limitaciones técnicas del sensado táctil. No demuestra por sí sola que las interfaces textiles sean necesariamente binarias. |
+| **[10]** | [Cui et al. (2025) — Flexible and wearable tactile sensors for intelligent interfaces](https://pmc.ncbi.nlm.nih.gov/articles/PMC12429216/) | Revisión de sensores táctiles flexibles y 
+
+vestibles para interfaces inteligentes. Examina materiales, mecanismos de sensado y desafíos de adaptación y retroalimentación. Sirve para contextualizar las posibilidades y limitaciones técnicas del sensado táctil. No demuestra por sí sola que las interfaces textiles sean necesariamente binarias. |
 
 | **[11]** | [Guennes et al. (2025) — Smart textile design](https://www.mdpi.com/2227-7080/13/6/251) | Revisión sistemática de materiales, tecnologías y métodos de evaluación de experiencia de usuario en textiles inteligentes. Aporta una visión general del campo y ayuda a fundamentar la evaluación de la experiencia de interacción. |
 
