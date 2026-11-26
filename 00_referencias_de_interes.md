@@ -14,6 +14,16 @@ Documento de apoyo a mi propuesta doctoral. Reúne las referencias académicas, 
 ## Proyección de la investigación doctoral
 
 Busco fortalecer mi formación interdisciplinaria y desarrollar un modelo de interacción física humano–IA que integre tacto, materialidad y sonido. Me interesa explorar sus posibilidades en creación sonora, bienestar y rehabilitación, mediante tecnologías adaptables a distintos contextos, donde el aprendizaje de la IA se construya en relación con las personas, sus prácticas y materialidades (Suchman, 2007).
+
+## Materialidad textil y superficies blandas
+
+La elección de una superficie textil y/o blanda responde a que la materialidad no constituye únicamente el soporte 
+de los sensores, sino una dimensión activa de la interacción. Su flexibilidad y condición táctil permiten explorar 
+distintas formas de contacto, presión y desplazamiento, vinculando cuerpo, material y sistema computacional. Desde 
+esta perspectiva, el textil ofrece un campo de experimentación para investigar interacciones físicas adaptables a 
+las personas y sus prácticas. La superficie participa así en la configuración de la experiencia y en las 
+relaciones que se establecen entre la persona y el sistema de inteligencia artificial.
+
 *****
 
 **[22]** Destaco La Conferencia perteneciente al ciclo _Human-Computer Partnerships_ (2021–2022).
