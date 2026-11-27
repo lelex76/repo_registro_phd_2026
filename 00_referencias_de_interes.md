@@ -6,6 +6,13 @@ sus publicaciones, proyectos, talleres y actividades.
 
 Repositorio: https://github.com/lelex76/vestibles-plataforma
 
+## Presentaciones y espacios de investigación
+
+- [When the System Doesn't Decide: Sound, Textiles, and Non-Agentic Co-Adaptation — Goldsmiths 
+(2026)](documentos/Goldsmiths.pdf)
+- [What Does a Textile Remember? Tactile, Ephemeral and Relational Human–AI Interaction — SIGGRAPH 2026 
+SPARKS](documentos/SIGRAPH.pdf)
+
 
 # Referencias, bibliografía, comunidades y experimentación — TmaqT
 
